@@ -118,78 +118,81 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AbuEfficiency" xml:space="preserve">
-    <value>Эфективность АБУ</value>
+    <value>Abu Efficiency</value>
   </data>
   <data name="AbuEfficiencyFormol" xml:space="preserve">
-    <value>Эффективность улавливания&lt;br&gt;&lt;strong&gt;фенола, формальдегида&lt;/strong&gt;</value>
+    <value>Efficiency of capturing &lt;strong&gt;phenol and formaldehyde&lt;/strong&gt;</value>
   </data>
   <data name="AbuEfficiencyResin" xml:space="preserve">
-    <value>Эффективность улавливания&lt;br&gt;&lt;strong&gt;взвешенных веществ&lt;/strong&gt;</value>
+    <value>Efficiency of capturing &lt;br&gt;&lt;strong&gt;suspended substances&lt;/strong&gt;</value>
   </data>
   <data name="AbuEfficiencyResinValue" xml:space="preserve">
-    <value>не менее &lt;span class="efficiency-item__value"&gt;{0}&lt;/span&gt;</value>
+    <value>&lt;span class="efficiency-item__value"&gt;{0}&lt;/span&gt; or higher</value>
   </data>
   <data name="AbuEfficiencyTriethylamine" xml:space="preserve">
-    <value>Эффективность очистки от&lt;br&gt;&lt;strong&gt;триэтиламина и взвешенных веществ&lt;/strong&gt;</value>
+    <value>Efficiency of cleaning from &lt;strong&gt;triethylamine and suspended substances&lt;/strong&gt;
+
+</value>
   </data>
   <data name="AbuEfficiencyTriethylamineValue" xml:space="preserve">
-    <value>(на выходе концентрация триэтиламина не более 20 мг/м3)</value>
+    <value>(triethylamine output concentration does not exceed 20 mg/m&lt;sup&gt;3&lt;/sup&gt;)</value>
   </data>
   <data name="AbuIntro" xml:space="preserve">
-    <value>Абсорбционно-биологическая установка (АБУ) предназначенна для чистки вентиляционного воздуха промышленных предприятий от летучих органических газообразных загрязнений (фенол, формальдегид, триэтиламин, бензол, акролеин, цианиды, аммиак, метанол, пыли, аэрозоли смолистых веществ и т.д.)</value>
+    <value>Absorption-biological units (ABUs) are designed to remove volatile organic gaseous pollutants (phenol, formaldehyde, triethylamine, benzol, acrolein, cyanides, ammonia, methanol, dust, tarry substances aerosols, etc.) from the ventilation air of industrial enterprises.</value>
   </data>
   <data name="AbuOperationDescription" xml:space="preserve">
-    <value>Принципиальная схема и описание абсорбционно-биологической установки</value>
+    <value>Diagram and description of the absorption-biological unit</value>
   </data>
   <data name="AbuOperationDetailsOne" xml:space="preserve">
-    <value>В скруббере при помощи водного абсорбента происходит улавливание вредных веществ, а в биореакторе – их нейтрализация (окисление	до CO2 и H2O).</value>
+    <value>Harmful substances are captured in the scrubber with the help of a water absorbent, and they are neutralized (oxidized to CO2 and H2O) in the bioreactor.</value>
   </data>
   <data name="AbuOperationDetailsThree" xml:space="preserve">
-    <value>Микроорганизмы вводятся в биореактор один раз перед началом эксплуатации в виде концентрированной биомассы. Используемые в АБУ микроорганизмы не токсичны и не патогенны, выделены из природных источников и прошли токсикологическую экспертизу.</value>
+    <value>Microorganisms (concentrated biomass) are supplied into the bioreactor once before ABU launch.</value>
   </data>
   <data name="AbuOperationDetailsTwo" xml:space="preserve">
-    <value>Циркуляция раствора происходит по замкнутому циклу «скруббер – биореактор», при этом сток в канализацию отсутствует. Очищенный вентвоздух выбрасывается в атмосферу.</value>
+    <value>The solution circulates in a closed &amp;laquo;scrubber-bioreactor&amp;raquo; cycle, with no drain into the sewerage.
+Purified air is discharged into the atmosphere.</value>
   </data>
   <data name="AbuOprationTitle" xml:space="preserve">
-    <value>Принцип работы АБУ</value>
+    <value>ABU operation principle</value>
   </data>
   <data name="AbuOprationValueA" xml:space="preserve">
-    <value>А – вход  вентвоздуха;</value>
+    <value>А – ventilation air input;</value>
   </data>
   <data name="AbuOprationValueB" xml:space="preserve">
-    <value>В - выход вентвоздуха;</value>
+    <value>В - ventilation air output;</value>
   </data>
   <data name="AbuOprationValueC" xml:space="preserve">
-    <value>С – абсорбционный раст;</value>
+    <value>С – absorption solution;</value>
   </data>
   <data name="AbuOprationValueFour" xml:space="preserve">
-    <value>4 – вентилятор;</value>
+    <value>4 – ventilator;</value>
   </data>
   <data name="AbuOprationValueOne" xml:space="preserve">
-    <value>1 – скруббер;</value>
+    <value>1 – scrubber;</value>
   </data>
   <data name="AbuOprationValueThree" xml:space="preserve">
-    <value>3 – биореактор с микроорганизмами;</value>
+    <value>3 – bioreactor with microorganisms;</value>
   </data>
   <data name="AbuOprationValueTwo" xml:space="preserve">
-    <value>2 – насос;</value>
+    <value>2 – pump;</value>
   </data>
   <data name="AbuPurificationDescriptionOne" xml:space="preserve">
-    <value>первый заключается в том, что большинство вредных летучих органических соединений растворимы в технической воде;</value>
+    <value>The first one is that most harmful volatile organic compounds are soluble in industrial water.</value>
   </data>
   <data name="AbuPurificationDescriptionTwo" xml:space="preserve">
-    <value>второй принцип основан на способности специально селекционированных и адаптированных природных микроорганизмов использовать в качестве источников питания растворенные в воде органические и некоторые неорганические вещества. В процессе потребления микроорганизмами этих соединений происходит их полная минерализация с образованием воды и углекислого газа.</value>
+    <value>The second one is based on the ability of specially selected and adapted natural microorganisms to use organic and some inorganic substances dissolved in water as the power sources. When microorganisms consume these compounds, these substances get mineralized and water and carbon dioxide are produced as a result.</value>
   </data>
   <data name="AbuPurificationTitle" xml:space="preserve">
-    <value>Очистка вентиляционного воздуха в АБУ основана на естественных природных процессах:</value>
+    <value>ABU employs natural processes to clean ventilation air:</value>
   </data>
   <data name="AbyEfficiencyDescription" xml:space="preserve">
-    <value>По совокупному показателю (эффективность, экономичность, экологичность, надежность)&lt;br&gt; АБУ не имеют аналогов на мировом рынке газоочистного оборудования.</value>
+    <value>ABU gas purifying equipment is unique in the world by the cumulative index (efficiency, cost effectiveness, environmental friendliness, reliability).</value>
   </data>
   <data name="CompanyIntro" xml:space="preserve">
-    <value>Компания &lt;br&gt;&lt;span class="accent-text"&gt;«Industrial Bio Technology»&lt;br&gt;&lt;/span&gt; предлагает к поставке абсорбционно-биологические установки (АБУ)</value>
+    <value>&lt;span class="accent-text"&gt;Industrial Bio Technology&lt;/span&gt; company offers absorption-biological units (ABUs)</value>
   </data>
   <data name="Concentration" xml:space="preserve">
-    <value>не менее &lt;span class="efficiency-item__value"&gt;{0}&lt;/span&gt; при входной концентрации {1} мг/м3;</value>
+    <value>at least &lt;span class="efficiency-item__value"&gt;{0}&lt;/span&gt; with an input concentration of {1} mg/m&lt;sup&gt;3&lt;/sup&gt;;</value>
   </data>
 </root>

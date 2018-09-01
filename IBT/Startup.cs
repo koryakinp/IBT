@@ -61,7 +61,7 @@ namespace IBT
 
             var options = new RequestLocalizationOptions
             {
-                DefaultRequestCulture = new RequestCulture("ru"),
+                DefaultRequestCulture = new RequestCulture("en"),
                 SupportedCultures = supportedCultures,
                 SupportedUICultures = supportedCultures,
                 RequestCultureProviders = new List<IRequestCultureProvider>()
