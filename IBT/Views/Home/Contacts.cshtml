@@ -1,0 +1,37 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@using IBT
+@inject IHtmlLocalizer<SharedResource> SharedLocalizer
+@{
+    ViewData["Title"] = SharedLocalizer.GetString("Contacts");
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="breadcrumbs">
+    <ul class="breadcrumbs__inner">
+        <li class="breadcrumbs__item"><a href="/"><localize localizer="SharedLocalizer">MainPage</localize></a></li>
+        <li class="breadcrumbs__item breadcrumbs__item--active"><span><localize localizer="SharedLocalizer">Contacts</localize></span></li>
+    </ul>
+</div>
+<div class="content">
+    <div class="container">
+        <h1 class="page-title"><localize localizer="SharedLocalizer">Contacts</localize></h1>
+        <h2><localize>LeaveMessage</localize></h2>
+        <form class="feedback-frm" action="/Mail/SendEmail" method="post">
+            <div class="input-row">
+                <div class="input-wrap">
+                    <label for="feedback-name"><localize>Name</localize></label>
+                    <input required id="feedback-name" name="name" type="text">
+                </div>
+                <div class="input-wrap">
+                    <label for="feedback-email"><localize>Email</localize></label>
+                    <input required id="feedback-email" name="email" type="email">
+                </div>
+            </div>
+            <div class="input-wrap">
+                <label for="feedback-msg"><localize>Message</localize></label>
+                <textarea required id="feedback-msg" name="body"></textarea>
+            </div>
+            <button class="btn--2 feedback-frm__submit" type="submit"><localize>Send</localize></button>
+        </form>
+    </div>
+</div>

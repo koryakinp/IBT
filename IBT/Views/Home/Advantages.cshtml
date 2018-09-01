@@ -1,0 +1,76 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@using IBT
+@inject IHtmlLocalizer<SharedResource> SharedLocalizer
+@{
+    ViewData["Title"] = SharedLocalizer.GetString("Advantages");
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="breadcrumbs">
+    <ul class="breadcrumbs__inner">
+        <li class="breadcrumbs__item"><a href="/"><localize localizer="SharedLocalizer">MainPage</localize></a></li>
+        <li class="breadcrumbs__item breadcrumbs__item--active"><span><localize localizer="SharedLocalizer">Advantages</localize></span></li>
+    </ul>
+</div>
+<div class="content white-text">
+    <div class="container">
+        <h1 class="page-title"><localize localizer="SharedLocalizer">Advantages</localize></h1>
+        <h2><localize>9ReasonsToChooseAbu</localize></h2>
+        <ol>
+            <li><localize>Advantage1</localize></li>
+            <li><localize>Advantage2</localize></li>
+            <li><localize>Advantage3</localize></li>
+            <li><localize>Advantage4</localize></li>
+            <li><localize>Advantage5</localize></li>
+            <li><localize>Advantage6</localize></li>
+            <li><localize>Advantage7</localize></li>
+            <li><localize>Advantage8</localize></li>
+            <li><localize>Advantage9</localize></li>
+        </ol>
+        <h2><localize>AduAdvantages</localize></h2>
+        <ol>
+            <li>
+                <em><localize>Advantage1Title</localize></em>
+                <p><localize>Advantage1Description</localize></p>
+            </li>
+            <li>
+                <em><localize>Advantage2Title</localize></em>
+                <p><localize html="true">Advantage2Description</localize></p>
+            </li>
+            <li>
+                <em><localize>Advantage3Title</localize></em>
+                <p><localize html="true">Advantage3Description</localize></p>
+            </li>
+            <li>
+                <em><localize>Advantage4Title</localize></em>
+                <p><localize>Advantage4Description</localize></p>
+            </li>
+            <li>
+                <em><localize>Advantage5Title</localize></em>
+                <p><localize>Advantage5Description</localize></p>
+            </li>
+            <li>
+                <em><localize>Advantage6Title</localize></em>
+                <p><localize>Advantage6Description</localize></p>
+            </li>
+            <li>
+                <em><localize>Advantage7Title</localize></em>
+                <p><localize>Advantage7Description</localize></p>
+            </li>
+            <li>
+                <em><localize>Advantage8Title</localize></em>
+                <p><localize>Advantage8Description1</localize></p>
+                <p><localize html="true">Advantage8Description2</localize></p>
+            </li>
+            <li>
+                <em><localize>Advantage9Title</localize></em>
+                <p><localize>Advantage9Description</localize></p>
+            </li>
+            <li>
+                <em><localize>Advantage10Title</localize></em>
+                <p><localize>Advantage10Description</localize></p>
+            </li>
+        </ol>
+    </div>
+</div>
+

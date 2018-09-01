@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="9ReasonsToChooseAbu" xml:space="preserve">
+    <value>9 причин выбрать АБУ:</value>
+  </data>
+  <data name="AduAdvantages" xml:space="preserve">
+    <value>Преимущества АБУ</value>
+  </data>
+  <data name="Advantage1" xml:space="preserve">
+    <value>Высокая степень улавливания широкой гаммы вредных веществ.</value>
+  </data>
+  <data name="Advantage10Description" xml:space="preserve">
+    <value>С начала эксплуатации (с 1989г) на все эксплуатируемые АБУ  не было ни единой рекламации. АБУ  не имеет подвижных и изнашиваемых частей (кроме обычного водяного насоса). Срок службы установки составляет не менее 20. По совокупному показателю (эффективность, экономичность, экологичность, надежность) АБУ не имеют аналогов на мировом рынке газоочистного оборудования.</value>
+  </data>
+  <data name="Advantage10Title" xml:space="preserve">
+    <value>Качество и надежность</value>
+  </data>
+  <data name="Advantage1Description" xml:space="preserve">
+    <value>Степень улавливания из вентиляционного воздуха широкой гаммы вредных веществ составляет от 80 до 99,9% в зависимости от входных концентраций и физико-химических свойств вредных веществ.</value>
+  </data>
+  <data name="Advantage1Title" xml:space="preserve">
+    <value>Эффективность</value>
+  </data>
+  <data name="Advantage2" xml:space="preserve">
+    <value>Надежность и эффективность подтверждена 25 летним опытом эксплуатации.</value>
+  </data>
+  <data name="Advantage2Description" xml:space="preserve">
+    <value>Наличие твердых примесей в газовом потоке не влияет на функциональные характеристики . Применение же ионообменных фильтров, установок с газоразрядными ячейками, углей, цеолитов, катализаторов, и других «сухих» аппаратов лишено смысла из-за залипания рабочих поверхностей смолистыми и взвешенными веществами.</value>
+  </data>
+  <data name="Advantage2Title" xml:space="preserve">
+    <value>Возможность очистки вентиляционного воздуха, содержащего смолистые и взвешенные вещества</value>
+  </data>
+  <data name="Advantage3" xml:space="preserve">
+    <value>Низкие эксплуатационные расходы.</value>
+  </data>
+  <data name="Advantage3Description" xml:space="preserve">
+    <value>Низкие эксплуатационные затраты в связи с минимальным количеством расходных материалов (техническая вода на подпитку – 0,1-1 м&lt;sup&gt;3&lt;/sup&gt;/сут., биогенные добавки – 30-60 кг/год, сжатый воздух 30-40 м&lt;sup&gt;3&lt;/sup&gt;/ч).</value>
+  </data>
+  <data name="Advantage3Title" xml:space="preserve">
+    <value>Экономические показатели</value>
+  </data>
+  <data name="Advantage4" xml:space="preserve">
+    <value>Отсутствие химических реагентов, кислот и щелочей.</value>
+  </data>
+  <data name="Advantage4Description" xml:space="preserve">
+    <value>АБУ экологичны, так как не образуют вторичных загрязнений (так, например образуются: при термическом и каталитическим сжигании – NOх, СО и продукты неполного окисления; при адсорбции на углях – загрязненный конденсат после регенерации острым паром; при озонировании – избыточный озон; при хемосорбции – отработанный солевой раствор и унос капель химических реагентов в атмосферу), что оказывает благоприятное влияние на экологическую обстановку региона.</value>
+  </data>
+  <data name="Advantage4Title" xml:space="preserve">
+    <value>Экологичность</value>
+  </data>
+  <data name="Advantage5" xml:space="preserve">
+    <value>Минимальное техническое обслуживание.</value>
+  </data>
+  <data name="Advantage5Description" xml:space="preserve">
+    <value>Установки взрыво-, пожаробезопасны. Не используются химические реагенты, кислоты и щелочь.</value>
+  </data>
+  <data name="Advantage5Title" xml:space="preserve">
+    <value>Безопасность</value>
+  </data>
+  <data name="Advantage6" xml:space="preserve">
+    <value>Отсутствие изнашиваемых и заменяемых частей.</value>
+  </data>
+  <data name="Advantage6Description" xml:space="preserve">
+    <value>Эксплуатация АБУ  позволяет значительно снизить риск получения профессиональных заболеваний для сотрудников, задействованных на вредном производстве</value>
+  </data>
+  <data name="Advantage6Title" xml:space="preserve">
+    <value>Здоровье</value>
+  </data>
+  <data name="Advantage7" xml:space="preserve">
+    <value>Срок эксплуатации АБУ не менее 20 лет.</value>
+  </data>
+  <data name="Advantage7Description" xml:space="preserve">
+    <value>Установки просты в эксплуатации и не требуют наличия постоянного оператора. В период проведения шеф-монтажа АБУ  наши специалисты проведут необходимые инструктажи и предоставят полную информацию Вашему персоналу.</value>
+  </data>
+  <data name="Advantage7Title" xml:space="preserve">
+    <value>Обучение</value>
+  </data>
+  <data name="Advantage8" xml:space="preserve">
+    <value>Разработка нестандартных решений.</value>
+  </data>
+  <data name="Advantage8Description1" xml:space="preserve">
+    <value>Техническое обслуживание АБУ  минимально и связано только с ремонтом насоса.</value>
+  </data>
+  <data name="Advantage8Description2" xml:space="preserve">
+    <value>Контроль эффективности очистки вентиляционных выбросов осуществляется периодически, визуально, по состоянию орошения и «кипения» насадки. Состояние абсорбционного раствора определяется с помощью анализа раствора на ХПК 1 раз в месяц. В случае необходимости повышения эффективности регенерации абсорбента производится корректировка химического состава раствора по азоту и фосфору путем ввода доступных сельскохозяйственных удобрений.</value>
+  </data>
+  <data name="Advantage8Title" xml:space="preserve">
+    <value>Техническое обслуживание  и контроль</value>
+  </data>
+  <data name="Advantage9" xml:space="preserve">
+    <value>Сопровождение и технические консультации в течение всего срока службы.</value>
+  </data>
+  <data name="Advantage9Description" xml:space="preserve">
+    <value>Более 100 АБУ эксплуатируются на 42 предприятиях в различных отраслях промышленности России, Белоруссии, Украины и Кыргызстана со сроком непрерывной эксплуатации до 25 лет.</value>
+  </data>
+  <data name="Advantage9Title" xml:space="preserve">
+    <value>Практическое применение</value>
+  </data>
+</root>

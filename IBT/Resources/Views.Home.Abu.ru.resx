@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AbuCompressedAirTitle" xml:space="preserve">
+    <value>4.4. Сжатый воздух</value>
+  </data>
+  <data name="AbuCompressedAirValue1" xml:space="preserve">
+    <value>Расход сжатого воздуха на одну АБУ составляет не более 80 нм&lt;sup&gt;3&lt;/sup&gt;/ч.</value>
+  </data>
+  <data name="AbuCompressedAirValue2" xml:space="preserve">
+    <value>Предусмотреть трубопровод Ду 15 мм подвода сжатого воздуха к АБУ.</value>
+  </data>
+  <data name="AbuCompressedAirValue2.1" xml:space="preserve">
+    <value>Требования к сжатому воздуху:</value>
+  </data>
+  <data name="AbuCompressedAirValue2.2" xml:space="preserve">
+    <value>давление – 2-7 атм.</value>
+  </data>
+  <data name="AbuCompressedAirValue2.3" xml:space="preserve">
+    <value>содержание взвешенных веществ, не более – 10 мг/м&lt;sup&gt;3&lt;/sup&gt;</value>
+  </data>
+  <data name="AbuCompressedAirValue2.4" xml:space="preserve">
+    <value>влагосодержание – требования не предъявляются.</value>
+  </data>
+  <data name="AbuCompressedAirValue3" xml:space="preserve">
+    <value>Предусмотреть установку магистрального вентиля Ду 15 мм на отводе подключения АБУ к цеховой сети.</value>
+  </data>
+  <data name="AbuCompressedAirValue4" xml:space="preserve">
+    <value>Точка подвода сжатого воздуха укомплектована соответствующим вентилем, кроме магистрального.</value>
+  </data>
+  <data name="AbuCompressedAirValue5" xml:space="preserve">
+    <value>Режим подачи сжатого воздуха – круглосуточный. Допускается отсутствие подачи сжатого воздуха не более 2 часов. Отсутствие подачи сжатого воздуха более 2 часов является не штатной ситуацией. Порядок действий в такой ситуации описан в паспорте АБУ.</value>
+  </data>
+  <data name="AbuDimensions" xml:space="preserve">
+    <value>1. Технические характеристики и габаритные размеры АБУ-{0}</value>
+  </data>
+  <data name="AbuElectricalConsumptionTitle" xml:space="preserve">
+    <value>2. Расходные материалы и потребление электроэнергии</value>
+  </data>
+  <data name="AbuElectricalConsumptionValue1" xml:space="preserve">
+    <value>установленная мощность – {0} кВт, в т.ч. вентилятор – {1} кВт</value>
+  </data>
+  <data name="AbuElectricalConsumptionValue2" xml:space="preserve">
+    <value>техническая вода на подпитку, в зависимости от температуры и влажности очищаемого воздуха – не более {0} м&lt;sup&gt;3&lt;/sup&gt;/сут (для компенсации потерь
+на увлажнение вентвоздуха в процессе эксплуатации)</value>
+  </data>
+  <data name="AbuElectricalConsumptionValue3" xml:space="preserve">
+    <value>сжатый воздух (возможна комплектация автономной воздуходувкой) –
+не более {0} нм&lt;sup&gt;3&lt;/sup&gt;/ч, давление – 0,2-0,7 МПа.</value>
+  </data>
+  <data name="AbuElectricalConsumptionValue4" xml:space="preserve">
+    <value>биогенные добавки – {0} кг/год (в качестве биогенных добавок используются комплексные сельскохозяйственные удобрения, содержащие ионы аммония, фосфата и калия.)</value>
+  </data>
+  <data name="AbuElectricityTitle" xml:space="preserve">
+    <value>4.2 Электроснабжение</value>
+  </data>
+  <data name="AbuElectricityValue1" xml:space="preserve">
+    <value>Характеристика энергопотребителей:</value>
+  </data>
+  <data name="AbuElectricityValue1.1" xml:space="preserve">
+    <value>двигатель вентилятора (1 шт.: 380 В, {0} кВт);</value>
+  </data>
+  <data name="AbuElectricityValue1.2" xml:space="preserve">
+    <value>двигатели насосов водяных (1 шт., 380 В, {0} кВт);</value>
+  </data>
+  <data name="AbuElectricityValue1.3" xml:space="preserve">
+    <value>двигатели насосов шламовых (1 шт., 380 В, {0} кВт);</value>
+  </data>
+  <data name="AbuElectricityValue1.4" xml:space="preserve">
+    <value>привода электро клапанов АБУ (9 шт., 220 В, 100 Вт);</value>
+  </data>
+  <data name="AbuElectricityValue1.5" xml:space="preserve">
+    <value>датчики уровня (3 шт., 6 Вт).</value>
+  </data>
+  <data name="AbuElectricityValue1.6" xml:space="preserve">
+    <value>Силовые кабели и кабель лотки, кабели управления входят в комплект поставки АБУ.</value>
+  </data>
+  <data name="AbuElectricityValue2" xml:space="preserve">
+    <value>Шкафы управления входят в комплект поставки АБУ.</value>
+  </data>
+  <data name="AbuElectricityValue3" xml:space="preserve">
+    <value>Предусмотреть разводку силовых цепей от цехового трансформатора
+к шкафам управления АБУ.</value>
+  </data>
+  <data name="AbuElectricityValue4" xml:space="preserve">
+    <value>Силовая и пусковая аппаратура вентилятора и насоса должна быть смонтирована согласно &amp;laquo;Правилам устройства электроустановок&amp;raquo; в местах, позволяющих наблюдать за работой электроагрегатов.</value>
+  </data>
+  <data name="AbuElectricityValue5" xml:space="preserve">
+    <value>Предусмотреть шину заземления всех нетоковедущих частей оборудования АБУ.</value>
+  </data>
+  <data name="AbuInstallationTitle1" xml:space="preserve">
+    <value>4. Исходные данные на подключение АБУ-{0}</value>
+  </data>
+  <data name="AbuInstallationTitle2" xml:space="preserve">
+    <value>4.1. Строительная часть и требования к помещению размещения АБУ</value>
+  </data>
+  <data name="AbuInstallationValue1" xml:space="preserve">
+    <value>Предусмотреть устройство пола бетонного на отм. 0,000 для размещения оборудования АБУ. Пол выровнять по нивелиру. Толщину заливки бетона принять исходя из нагрузок оборудования АБУ. Оборудование АБУ расположено на двух рамах.</value>
+  </data>
+  <data name="AbuInstallationValue2" xml:space="preserve">
+    <value>Нагрузка на каждую раму не более {0} тонн.</value>
+  </data>
+  <data name="AbuInstallationValue3" xml:space="preserve">
+    <value>Крепление оборудования к полу не требуется.</value>
+  </data>
+  <data name="AbuInstallationValue4" xml:space="preserve">
+    <value>В устройстве пола бетонного предусмотреть трапы для отвода аварийных проливов абсорбента. Трапы соединить с канализацией цеха.</value>
+  </data>
+  <data name="AbuInstallationValue4.1" xml:space="preserve">
+    <value>Количество аварийных проливов – не более 8 м&lt;sup&gt;3&lt;/sup&gt; за одну аварию. Под аварией понимается течь корпуса емкости, течь запорно-регулирующий арматуры.</value>
+  </data>
+  <data name="AbuInstallationValue5" xml:space="preserve">
+    <value>Грузоподъемных механизмов для обслуживания АБУ не требуется.</value>
+  </data>
+  <data name="AbuInstallationValue6" xml:space="preserve">
+    <value>Температура окружающей среды в помещении размещения АБУ
+в наиболее холодный месяц года не менее 5&amp;#176;С. Максимальная температура
+в помещении размещения АБУ 30&amp;#176;С.</value>
+  </data>
+  <data name="AbuInstallationValue7" xml:space="preserve">
+    <value>Помещение для размещения АБУ по взрывопожарной и пожарной безопасности относится к низшей категории – Д (в помещении находятся
+и обращаются негорючие вещества и материалы в холодном состоянии, горючие и трудногорючие вещества и материалы в таком количестве,
+что удельная пожарная нагрузка на участке их размещения в помещении
+не превышает 100 МДж/м&lt;sup&gt;2&lt;/sup&gt;, а пожарная нагрузка в пределах помещения –
+1000 МДж).</value>
+  </data>
+  <data name="AbuLifespanTitle" xml:space="preserve">
+    <value>Срок эксплуатации</value>
+  </data>
+  <data name="AbuLifespanValue" xml:space="preserve">
+    <value>Срок эксплуатации не менее 20 лет.</value>
+  </data>
+  <data name="AbuMaintenanceTitle" xml:space="preserve">
+    <value>Техническое обслуживание АБУ-{0}</value>
+  </data>
+  <data name="AbuMaintenanceValue" xml:space="preserve">
+    <value>Обслуживание АБУ сводится к освобождению шламовой корзины
+от взвешенных и конденсационных веществ и поддержанию заданного содержания фосфора, азота и калия в абсорбенте путем ввода биогенных добавок (БД). 
+Для определения необходимости корректировки абсорбента по БД рекомендуется один раз в месяц определять содержание ионов фосфора, азота
+и калия.
+Контроль эффективности регенерации абсорбента микроорганизмами деструкторами ведется по косвенному показателю – химическому потреблению кислорода (ХПК), который рекомендуется определять один раз в месяц.</value>
+  </data>
+  <data name="AbuPhenolEfficiencyTitle" xml:space="preserve">
+    <value>Эффективность улавливания фенола, формальдегида:</value>
+  </data>
+  <data name="AbuPhenolEfficiencyValue" xml:space="preserve">
+    <value>Не менее {0} при входной концентрации {1} мг/м&lt;sup&gt;3&lt;/sup&gt;</value>
+  </data>
+  <data name="AbuSpecTitle" xml:space="preserve">
+    <value>Технические характеристики и исходные данные</value>
+  </data>
+  <data name="AbutDrainageTitle" xml:space="preserve">
+    <value>Состав аварийных стоков:</value>
+  </data>
+  <data name="AbutDrainageValue1" xml:space="preserve">
+    <value>содержание фосфатов – не более 150 мг/л</value>
+  </data>
+  <data name="AbutDrainageValue2" xml:space="preserve">
+    <value>содержание нитратов – не более 200 мг/л</value>
+  </data>
+  <data name="AbutDrainageValue3" xml:space="preserve">
+    <value>показатель рН – 6,5-8,3</value>
+  </data>
+  <data name="AbutDrainageValue4" xml:space="preserve">
+    <value>химическое потребление кислорода (ХПК) – не более 6 000 мгО&lt;sub&gt;2&lt;/sub&gt;/л</value>
+  </data>
+  <data name="AbutDrainageValue5" xml:space="preserve">
+    <value>взвешенные вещества – не более 0,1% по объему и размерами частиц не более 0,2 мм</value>
+  </data>
+  <data name="AbuTitle" xml:space="preserve">
+    <value>На абсорбционно-биологическую установку (АБУ)
+по очистке вентвоздуха промышленных предприятий
+производительностью {0} тыс. м&lt;sup&gt;3&lt;/sup&gt;/ч. (АБУ-{1})</value>
+  </data>
+  <data name="AbuTriethylamineEfficiencyTitle" xml:space="preserve">
+    <value>Эффективность очистки от триэтиламина и взвешенных веществ 96-99,9%
+(на выходе концентрация триэтиламина не более 20 мг/м&lt;sup&gt;3&lt;/sup&gt;):</value>
+  </data>
+  <data name="AbuTriethylamineEfficiencyValue1" xml:space="preserve">
+    <value>эффективность улавливания взвешенных веществ – не менее 98%</value>
+  </data>
+  <data name="AbuTriethylamineEfficiencyValue2" xml:space="preserve">
+    <value>сопротивление вентиляционной сети – не более 1700 Па</value>
+  </data>
+  <data name="AbuTriethylamineEfficiencyValue3" xml:space="preserve">
+    <value>гидравлическое сопротивление (потери давления в АБУ) – не более 2400 Па</value>
+  </data>
+  <data name="AbuTriethylamineEfficiencyValue4" xml:space="preserve">
+    <value>температура в помещении для размещения АБУ – +5…+30&amp;#176;С</value>
+  </data>
+  <data name="AbuTriethylamineEfficiencyValue5" xml:space="preserve">
+    <value>габаритные размеры, ДхШхВ: {0}x{1}x{2} мм (при монтаже в едином блоке).</value>
+  </data>
+  <data name="AbuVentilationTitle" xml:space="preserve">
+    <value>4.5. Вентиляция</value>
+  </data>
+  <data name="AbuVentilationValue1" xml:space="preserve">
+    <value>Предусмотреть воздуховоды для подачи вентвоздуха от вентукрытий технологического оборудования в АБУ и далее от выхлопа вентиляторов
+в атмосферный воздух.</value>
+  </data>
+  <data name="AbuVentilationValue1.1" xml:space="preserve">
+    <value>Конструкция воздуховодов на линии разряжения – класса &amp;laquo;Н&amp;raquo; (нормальные).</value>
+  </data>
+  <data name="AbuVentilationValue1.2" xml:space="preserve">
+    <value>Конструкция воздуховодов на линии давления (после вентиляторов) – класса &amp;laquo;Н&amp;raquo; (нормальные).</value>
+  </data>
+  <data name="AbuVentilationValue1.3" xml:space="preserve">
+    <value>Гибкие вставке на входе в вентиляторы и на выходе из вентиляторов входят
+в комплект поставки.</value>
+  </data>
+  <data name="AbuVentilationValue2" xml:space="preserve">
+    <value>В качестве побудителя тяги используется вентилятор {0} со следующими характеристиками:</value>
+  </data>
+  <data name="AbuVentilationValue2.1" xml:space="preserve">
+    <value>двигатель {0} кВт, 380/660V, 50Hz, {1} об/мин;</value>
+  </data>
+  <data name="AbuVentilationValue2.2" xml:space="preserve">
+    <value>материал изготовления вентилятора – углеродистая сталь с порошковым покрытием;</value>
+  </data>
+  <data name="AbuVentilationValue2.3" xml:space="preserve">
+    <value>частота вращения рабочего колеса вентилятора {0} об/мин.</value>
+  </data>
+  <data name="AbuVentilationValue2.4" xml:space="preserve">
+    <value>Уровень шума от вентилятора {0} составляет
+113 дБ.</value>
+  </data>
+  <data name="AbuVentilationValue2.5" xml:space="preserve">
+    <value>Возможно использование побудителя тяги иного производителя и с другими характеристиками.</value>
+  </data>
+  <data name="AbuVentilationValue3" xml:space="preserve">
+    <value>Давление разрежения на входном штуцере АБУ не более – 1200 Па, давление нагнетания на штуцере выхлопа – не более +500 Па.</value>
+  </data>
+  <data name="AbuVentilationValue4" xml:space="preserve">
+    <value>На воздуховодах, в зоне вентукрытий предусмотреть устройство шиберных затворов для регулировки натекания аспирационного воздуха. Ответные фланцы штуцеров входа и выхлопа входят в комплект поставки АБУ.</value>
+  </data>
+  <data name="AbuVentilationValue4.1" xml:space="preserve">
+    <value>В помещении установки АБУ необходимо предусмотреть общеобменную вентиляцию с кратностью воздухообмена 3-4.</value>
+  </data>
+  <data name="AbuWaterSupplyTitle" xml:space="preserve">
+    <value>4.3. Водоснабжение</value>
+  </data>
+  <data name="AbuWaterSupplyValue1" xml:space="preserve">
+    <value>Предусмотреть подвод технической воды из цеховой сети к штуцеру Ду 20 АБУ для разового заполнения емкостей (около 20 м&lt;sup&gt;3&lt;/sup&gt;) при запуске АБУ.</value>
+  </data>
+  <data name="AbuWaterSupplyValue2" xml:space="preserve">
+    <value>Расход воды на подпитку АБУ – не более 2,0 м&lt;sup&gt;3&lt;/sup&gt;/сут.</value>
+  </data>
+  <data name="AbuWaterSupplyValue3" xml:space="preserve">
+    <value>Требования к технической воде на подпитку:</value>
+  </data>
+  <data name="AbuWaterSupplyValue3.1" xml:space="preserve">
+    <value>давление – 0,2-0,6 МПа;</value>
+  </data>
+  <data name="AbuWaterSupplyValue3.2" xml:space="preserve">
+    <value>содержание механических примесей – не более 0,1% по объему и размерами частиц не более 0,2 мм;</value>
+  </data>
+  <data name="AbuWaterSupplyValue3.3" xml:space="preserve">
+    <value>температура – 5-30&amp;#176;С.</value>
+  </data>
+  <data name="AbuWaterSupplyValue3.4" xml:space="preserve">
+    <value>Предусмотреть установку магистрального вентиля Ду 20мм на отводе подключения АБУ к цеховой сети.</value>
+  </data>
+  <data name="AbuWaterSupplyValue4" xml:space="preserve">
+    <value>Точка подвода воды укомплектована соответствующим вентилем, кроме магистрального.</value>
+  </data>
+  <data name="AbuWaterSupplyValue5" xml:space="preserve">
+    <value>При работающей системе абсорбции (насос и вентилятор в состоянии ВКЛЮЧЕНО) АБУ допускается отсутствие технической воды на подпитке
+не более 2 часов. При не работающей системе абсорбции (насос и вентилятор
+в состоянии ВЫКЛЮЧЕНО) подпитка не требуется.</value>
+  </data>
+</root>

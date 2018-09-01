@@ -1,0 +1,34 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-arrow" viewBox="0 0 64 32">
+<title>arrow</title>
+<path d="M63.316 3.288l-3.204-2.748c-0.428-0.368-0.916-0.552-1.472-0.552s-1.048 0.184-1.472 0.552l-25.168 21.604-25.172-21.6c-0.424-0.372-0.916-0.556-1.472-0.556-0.552 0-1.044 0.184-1.472 0.556l-3.2 2.744c-0.428 0.368-0.64 0.792-0.64 1.272 0 0.472 0.212 0.892 0.64 1.256l29.84 25.628c0.428 0.364 0.92 0.548 1.476 0.548 0.552 0 1.044-0.184 1.472-0.548l29.844-25.628c0.424-0.364 0.636-0.784 0.636-1.256 0-0.48-0.212-0.904-0.636-1.272z"></path>
+</symbol>
+<symbol id="icon-deu" viewBox="0 0 52 32">
+<title>deu</title>
+<path fill="#000" style="fill: var(--color1, #000)" d="M0 0h51.892v10.643h-51.892v-10.643z"></path>
+<path fill="#fecd17" style="fill: var(--color2, #fecd17)" d="M0 21.27h51.892v10.73h-51.892v-10.73z"></path>
+<path fill="#dc0201" style="fill: var(--color3, #dc0201)" d="M0 10.643h51.892v10.627h-51.892v-10.627z"></path>
+</symbol>
+<symbol id="icon-eng" viewBox="0 0 52 32">
+<title>eng</title>
+<path fill="#04247b" style="fill: var(--color4, #04247b)" d="M0 0.027h52.273v31.973h-52.273v-31.973z"></path>
+<path fill="#fff" style="fill: var(--color5, #fff)" d="M46.372 0l-15.922 9.805-30.45 18.653v3.542h5.903l46.369-28.429v-3.544l-0.947-0.027h-4.954z"></path>
+<path fill="#fff" style="fill: var(--color5, #fff)" d="M52.273 28.458l-46.239-28.431h-6.034v3.649l46.458 28.323h5.815v-3.542z"></path>
+<path fill="#fff" style="fill: var(--color5, #fff)" d="M52.273 21.37h-52.273v-10.713l52.273 0.054v10.659z"></path>
+<path fill="#fff" style="fill: var(--color5, #fff)" d="M21.802 0.027l0.001 31.973h8.712l-0.043-31.973h-8.669z"></path>
+<path fill="#ce142a" style="fill: var(--color6, #ce142a)" d="M52.273 12.844h-52.273v6.341l52.273 0.053v-6.393z"></path>
+<path fill="#ce142a" style="fill: var(--color6, #ce142a)" d="M48.375 0l-17.513 10.693h4.008l17.402-10.667-0.948-0.027h-2.95z"></path>
+<path fill="#ce142a" style="fill: var(--color6, #ce142a)" d="M28.729 0.027l-0.044 31.973h-5.183l0.044-31.973h5.183z"></path>
+<path fill="#ce142a" style="fill: var(--color6, #ce142a)" d="M0 0.027l17.36 10.648-3.877-0.004-13.483-8.327v-2.317z"></path>
+<path fill="#ce142a" style="fill: var(--color6, #ce142a)" d="M0 32l17.36-10.63h3.789l-17.206 10.63h-3.943z"></path>
+<path fill="#ce142a" style="fill: var(--color6, #ce142a)" d="M35.001 21.37l17.271 10.63v-2.424l-13.482-8.206h-3.79z"></path>
+</symbol>
+<symbol id="icon-fra" viewBox="0 0 53 32">
+<title>fra</title>
+<path fill="#062493" style="fill: var(--color7, #062493)" d="M0 0h17.322v32h-17.322v-32z"></path>
+<path fill="#ec2938" style="fill: var(--color8, #ec2938)" d="M34.966 0h17.699v32h-17.699v-32z"></path>
+<path fill="#fff" style="fill: var(--color5, #fff)" d="M17.322 0h17.643v32h-17.643v-32z"></path>
+</symbol>
+</defs>
+</svg>

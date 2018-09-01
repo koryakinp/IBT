@@ -1,0 +1,258 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@using IBT
+@inject IHtmlLocalizer<SharedResource> SharedLocalizer
+@{
+    ViewData["Title"] = SharedLocalizer.GetString("ForDesigners");
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .link-fix {
+        border-bottom: none;
+    }
+
+        .link-fix:hover {
+            color: #76b143;
+            text-decoration: none;
+            border-bottom: 1px solid rgba(119,179,68,.65);
+        }
+
+    .modal-body > img {
+        display: block;
+        margin: 0 auto;
+    }
+</style>
+
+<div class="breadcrumbs">
+    <ul class="breadcrumbs__inner">
+        <li class="breadcrumbs__item"><a href="/"><localize localizer="SharedLocalizer">MainPage</localize></a></li>
+        <li class="breadcrumbs__item breadcrumbs__item--active">
+            <span>
+                <localize localizer="SharedLocalizer">ForDesigners</localize>
+            </span>
+        </li>
+    </ul>
+</div>
+<div class="content white-text">
+    <div class="container">
+        <h1 class="page-title">
+            <localize localizer="SharedLocalizer">ForDesigners</localize>
+        </h1>
+        <p>
+            <localize html="true">AbuDescription1</localize>
+        </p>
+        <p>
+            <localize>AbuDescription2</localize>
+        </p>
+        <p>
+            <localize>AbuDescription3</localize>
+        </p>
+        <p><localize>AbuInstallationListTitle</localize></p>
+        <ul>
+            <li>
+                <a class="link-fix" href="#" data-toggle="modal" data-target="#single">
+                    <strong>
+                        <localize>AbuInstallationListItem1</localize>
+                    </strong>
+                </a>
+            </li>
+            <li>
+                <a class="link-fix" href="#" data-toggle="modal" data-target="#distributed">
+                    <strong>
+                        <localize>AbuInstallationListItem2</localize>
+                    </strong>
+                </a>
+            </li>
+        </ul>
+        <p><localize html="true">AbuDescription4</localize></p>
+        <p><localize html="true">AbuDescription5</localize></p>
+        <h2><localize>AbuParametersTitle</localize></h2>
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr>
+                        <th><localize>AbuParametersTableHeader1</localize></th>
+                        <th><localize>AbuParametersTableHeader2</localize></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><localize html="true">AbuParametersTableRow1Value1</localize></td>
+                        <td>5; 10; 25;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><localize>AbuParametersTableRow2Value1</localize></p>
+                            <ul>
+                                <li><localize>AbuParametersTableRow2Value2</localize></li>
+                                <li><localize>AbuParametersTableRow2Value3</localize></li>
+                            </ul>
+                        </td>
+                        <td>
+                            60,0 – 99,0
+                            97,0 – 99,9
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><localize>AbuParametersTableRow3Value1</localize></td>
+                        <td>2400</td>
+                    </tr>
+                    <tr>
+                        <td><localize>AbuParametersTableRow4Value1</localize></td>
+                        <td>27; 36; 61;</td>
+                    </tr>
+                    <tr>
+                        <td><localize>AbuParametersTableRow5Value1</localize></td>
+                        <td>380 &plusmn; 10 %</td>
+                    </tr>
+                    <tr>
+                        <td><localize>AbuParametersTableRow6Value1</localize></td>
+                        <td>50</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h2><localize>AbuSchemaTitle</localize></h2>
+        <div class="scheme">
+            <div class="scheme__item">
+                <p><strong><localize>AbuSchemaValue1</localize></strong></p>
+                <p>
+                    <localize html="true">AbuSchemaValue2</localize>
+                </p>
+            </div>
+            <div class="scheme__item">
+                <p><strong><localize>AbuSchemaValue3</localize></strong></p>
+                <p><localize>AbuSchemaValue4</localize></p>
+            </div>
+            <div class="scheme__item">
+                <p><strong><localize>AbuSchemaValue5</localize></strong></p>
+                <p><localize>AbuSchemaValue6</localize></p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--start .catalog-->
+<div class="catalog">
+    <h2><localize html="true">CatalogTitle</localize></h2>
+    <div class="catalog__inner">
+        <div class="catalog-item">
+            <div class="catalog-item__desc">
+                <h2>
+                    <localize localizer="SharedLocalizer">
+                        <parameter>25</parameter>
+                        Abu
+                    </localize>
+                </h2><a class="btn--1 catalog-item__more" href="/Abu/25"><localize>AbuMoreDetails</localize></a>
+            </div><a class="catalog-item__img-wrap" href="/Abu/25"><img src="files/abu-25_thumb.jpg" alt=""></a>
+        </div>
+        <div class="catalog-item">
+            <div class="catalog-item__desc">
+                <h2>
+                    <localize localizer="SharedLocalizer">
+                        <parameter>10</parameter>
+                        Abu
+                    </localize>
+                </h2><a class="btn--1 catalog-item__more" href="/Abu/10"><localize>AbuMoreDetails</localize></a>
+            </div><a class="catalog-item__img-wrap" href="/Abu/10"><img src="files/abu-10_thumb.jpg" alt=""></a>
+        </div>
+        <div class="catalog-item">
+            <div class="catalog-item__desc">
+                <h2>
+                    <localize localizer="SharedLocalizer">
+                        <parameter>5</parameter>
+                        Abu
+                    </localize>
+                </h2><a class="btn--1 catalog-item__more" href="/Abu/5"><localize>AbuMoreDetails</localize></a>
+            </div><a class="catalog-item__img-wrap" href="/Abu/5"><img src="files/abu-5_thumb.jpg" alt=""></a>
+        </div>
+    </div>
+</div>
+
+<div class="content white-text">
+    <div class="container">
+        <p><localize html="true">AbuTemperatureParameters1</localize></p>
+        <p><localize html="true">AbuTemperatureParameters2</localize></p>
+        <p><localize html="true" localizer="SharedLocalizer">FaqLink</localize></p>
+        <p><localize html="true" localizer="SharedLocalizer">EnquiriesLink</localize></p>
+    </div>
+</div>
+<!--Modal Windows Start-->
+<div class="modal fade" id="single" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">
+                    <localize>Single</localize>
+                </h5>
+                <div>
+                    <div class="close" data-dismiss="modal">
+                        <i class="fas fa-window-close"></i>
+                    </div>
+                    <div class="close print-button" data-filname="single">
+                        <i class="fas fa-print"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <img src="files/single.jpg" />
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="distributed" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">
+                    <localize>Distributed</localize>
+                </h5>
+                <div>
+                    <div class="close" data-dismiss="modal">
+                        <i class="fas fa-window-close"></i>
+                    </div>
+                    <div class="close print-button" data-filname="distributed">
+                        <i class="fas fa-print"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <img src="files/distributed.jpg" />
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="complex" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">
+                    <localize html="true">Complex</localize>
+                </h5>
+                <div>
+                    <div class="close" data-dismiss="modal">
+                        <i class="fas fa-window-close"></i>
+                    </div>
+                    <div class="close print-button" data-filname="complex">
+                        <i class="fas fa-print"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <img src="files/complex.jpg" />
+            </div>
+        </div>
+    </div>
+</div>
+<!--Modal Windows End-->
+<script>
+    var buttons = document.getElementsByClassName('print-button');
+    for (var i = 0; i < buttons.length; i++) {
+        buttons[i].onclick = function (el) {
+            var filename = el.currentTarget.dataset.filname;
+            window.open('/print.html?image=' + filename, '_blank');
+        }
+    }
+</script>

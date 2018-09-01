@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AbuDescription1" xml:space="preserve">
+    <value>&lt;strong&gt;Установки абсорбционно-биологические (АБУ)&lt;/strong&gt; предназначенные для очистки вентиляционного воздуха от вредных органических веществ и
+            сопутствующих взвешенных веществ в различных отраслях промышленности, использующих технологические процессы, сопровождающиеся
+            токсичными газовыделениями в окружающую среду.</value>
+  </data>
+  <data name="AbuDescription2" xml:space="preserve">
+    <value>АБУ комплектуются собственным вентилятором. Возможен монтаж в существующие системы вентиляции (с имеющимся побудителем тяги) с
+            учетом потерь напора на установке 2200 Па.</value>
+  </data>
+  <data name="AbuDescription3" xml:space="preserve">
+    <value>Конструктивно АБУ изготавливаются в виде трех  основных аппаратов, которые могут встраиваться в существующие планировочные решения
+            как единым компактным блоком, так, и рассредоточено на любом расстоянии друг от друга. Такая конструкция позволяет наиболее удобно
+            разместить АБУ в каждом конкретном случае.</value>
+  </data>
+  <data name="AbuDescription4" xml:space="preserve">
+    <value>По заданию  Заказчика проектируются и изготавливаются АБУ с требуемыми параметрами по степени очистки, производительности, форме и габаритам.</value>
+  </data>
+  <data name="AbuDescription5" xml:space="preserve">
+    <value>АБУ позволяют очистить любой объем вентвоздуха промышленного предприятия. Для этого необходимое количество АБУ собирается в &lt;strong&gt;&lt;a class="link-fix" href="#" data-toggle="modal" data-target="#complex"&gt;
+                            единый комплекс
+                        &lt;/a&gt;&lt;/strong&gt;.</value>
+  </data>
+  <data name="AbuInstallationListItem1" xml:space="preserve">
+    <value>единый блок</value>
+  </data>
+  <data name="AbuInstallationListItem2" xml:space="preserve">
+    <value>рассредоточенная</value>
+  </data>
+  <data name="AbuInstallationListTitle" xml:space="preserve">
+    <value>Варианты монтажа АБУ:</value>
+  </data>
+  <data name="AbuMoreDetails" xml:space="preserve">
+    <value>Подробнее</value>
+  </data>
+  <data name="AbuParametersTableHeader1" xml:space="preserve">
+    <value>Наименование параметра</value>
+  </data>
+  <data name="AbuParametersTableHeader2" xml:space="preserve">
+    <value>Значение параметра</value>
+  </data>
+  <data name="AbuParametersTableRow1Value1" xml:space="preserve">
+    <value>Производительность по вентиляционному воздуху, тыс. м&lt;sup&gt;3&lt;/sup&gt;, не менее</value>
+  </data>
+  <data name="AbuParametersTableRow2Value1" xml:space="preserve">
+    <value>Эффективность очистки, %:</value>
+  </data>
+  <data name="AbuParametersTableRow2Value2" xml:space="preserve">
+    <value>летучих органических соединений;</value>
+  </data>
+  <data name="AbuParametersTableRow2Value3" xml:space="preserve">
+    <value>взвешенных веществ</value>
+  </data>
+  <data name="AbuParametersTableRow3Value1" xml:space="preserve">
+    <value>Гидравлическое сопротивление (потери давления в АБУ), Па, не более</value>
+  </data>
+  <data name="AbuParametersTableRow4Value1" xml:space="preserve">
+    <value>Потребляемая мощность*, кВт, не более</value>
+  </data>
+  <data name="AbuParametersTableRow5Value1" xml:space="preserve">
+    <value>Напряжение питания, В</value>
+  </data>
+  <data name="AbuParametersTableRow6Value1" xml:space="preserve">
+    <value>Частота питания, Гц</value>
+  </data>
+  <data name="AbuParametersTitle" xml:space="preserve">
+    <value>Параметры наиболее часто используемых АБУ</value>
+  </data>
+  <data name="AbuSchemaTitle" xml:space="preserve">
+    <value>Блок-схема промышленной установки очистки вентиляционных выбросов</value>
+  </data>
+  <data name="AbuSchemaValue1" xml:space="preserve">
+    <value>Вход загрязненного воздуха</value>
+  </data>
+  <data name="AbuSchemaValue2" xml:space="preserve">
+    <value>Параметры:&lt;br&gt;
+Температура - 5-180&amp;#176;C&lt;br&gt;
+Влажность – не нормируется&lt;br&gt;
+взвешенные вещества до 1500 мг/м&lt;sup&gt;3&lt;/sup&gt;&lt;br&gt;
+органические вещества - до 100 мг/м&lt;sup&gt;3&lt;/sup&gt;</value>
+  </data>
+  <data name="AbuSchemaValue3" xml:space="preserve">
+    <value>Абсорбционно-боилогические установки очистки (АБУ)</value>
+  </data>
+  <data name="AbuSchemaValue4" xml:space="preserve">
+    <value>Эффективность очистки до 99.8%</value>
+  </data>
+  <data name="AbuSchemaValue5" xml:space="preserve">
+    <value>Вентилятор</value>
+  </data>
+  <data name="AbuSchemaValue6" xml:space="preserve">
+    <value>Разряжение (напор) не менее 2200 Па</value>
+  </data>
+  <data name="AbuTemperatureParameters1" xml:space="preserve">
+    <value>АБУ являются стационарными и предназначены для непрерывного круглосуточного и/или сменного режима работы. При размещении АБУ в помещении температура должна соответствовать  +5…+30&amp;#176;С.</value>
+  </data>
+  <data name="AbuTemperatureParameters2" xml:space="preserve">
+    <value>В помещении установки АБУ необходимо предусмотреть общеобменную вентиляцию с кратностью воздухообмена 3-4. АБУ могут частично размещаться на открытом воздухе при этом на открытом воздухе допускается нахождение только абсорбционной и каплеулавливающей частей АБУ при температуре открытого воздуха от минус 35 до плюс 40&amp;#176;С.</value>
+  </data>
+  <data name="CatalogTitle" xml:space="preserve">
+    <value>Технические характеристики и исходные данные на АБУ производительностью 5000/10000/25000 м&lt;sup&gt;3&lt;/sup&gt;/час</value>
+  </data>
+  <data name="Complex" xml:space="preserve">
+    <value>Комплекс из 7 ABU производительностью в 175000 м&lt;sup&gt;3&lt;/sup&gt; в час</value>
+  </data>
+  <data name="Distributed" xml:space="preserve">
+    <value>Рассредоточенная</value>
+  </data>
+  <data name="Single" xml:space="preserve">
+    <value>Единый Блок</value>
+  </data>
+</root>

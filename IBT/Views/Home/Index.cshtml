@@ -1,0 +1,170 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@using IBT
+@inject IHtmlLocalizer<SharedResource> SharedLocalizer
+@{
+    ViewData["Title"] = SharedLocalizer.GetString("MainPage");
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!--start .top-->
+<div class="top">
+    <div class="top__inner">
+        <div class="top__text">
+            <h1>
+                <localize html="true">
+                    CompanyIntro
+                </localize>
+            </h1>
+            <div class="panel">
+                <localize>
+                    AbuIntro
+                </localize>
+            </div>
+        </div>
+        <div class="top__img-wrap"><img src="files/top-img.jpg" alt=""></div>
+        <div class="panel">
+            <localize>
+                AbuIntro
+            </localize>
+        </div>
+    </div>
+</div>
+<!--end .top-->
+<section class="page-section efficiency">
+    <header>
+        <h2 class="page-section-title">
+            <localize>AbuEfficiency</localize>
+        </h2>
+        <div class="page-section-sub-title">
+            <localize html="true">
+                AbyEfficiencyDescription
+            </localize>
+        </div>
+    </header>
+    <div class="efficiency-list">
+        <div class="efficiency-item">
+            <div class="efficiency-item__title">
+                <localize html="true">AbuEfficiencyFormol</localize>
+            </div>
+            <div class="efficiency-item__data panel">
+                <ul>
+                    <li>
+                        <localize html="true">
+                            <parameter>95%</parameter>
+                            <parameter>>20</parameter>
+                            Concentration
+                        </localize>
+                    </li>
+                    <li>
+                        <localize html="true">
+                            <parameter>85%</parameter>
+                            <parameter>10-20</parameter>
+                            Concentration
+                        </localize>
+                    </li>
+                    <li>
+                        <localize html="true">
+                            <parameter>80%</parameter>
+                            <parameter>5-10</parameter>
+                            Concentration
+                        </localize>
+                    </li>
+                    <li>
+                        <localize html="true">
+                            <parameter>70%</parameter>
+                            <parameter>4-6</parameter>
+                            Concentration
+                        </localize>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="efficiency-item">
+            <div class="efficiency-item__title">
+                <localize html="true">AbuEfficiencyTriethylamine</localize>
+            </div>
+            <div class="efficiency-item__data panel">
+                <ul>
+                    <li>
+                        <span class="efficiency-item__value">96 - 98%</span><br>
+                        <localize>AbuEfficiencyTriethylamineValue</localize>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="efficiency-item">
+            <div class="efficiency-item__title">
+                <localize html="true">AbuEfficiencyResin</localize>
+            </div>
+            <div class="efficiency-item__data panel">
+                <ul>
+                    <li>
+                        <localize html="true">
+                            <parameter>98%</parameter>
+                            AbuEfficiencyResinValue
+                        </localize>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="page-section principle">
+    <div class="container">
+        <h2 class="page-section-title">
+            <localize>AbuOprationTitle</localize>
+        </h2>
+        <p>
+            <localize>AbuPurificationTitle</localize>
+            <ul class="marked-list">
+                <li>
+                    <localize>AbuPurificationDescriptionOne</localize>
+                </li>
+                <li>
+                    <localize>AbuPurificationDescriptionTwo</localize>
+                </li>
+            </ul>
+        </p>
+    </div>
+    <div class="media-section">
+        <div class="media-section__inner">
+            <div class="media-section__media">
+                <h3>
+                    <localize>AbuOperationDescription</localize>
+                </h3>
+                <img src="files/scheme.jpg" alt="">
+            </div>
+            <div class="media-section__desc">
+                <h3>
+                    <localize>AbuOperationDescription</localize>
+                </h3>
+                <div class="media-section__legend">
+                    <ul>
+                        <li><localize>AbuOprationValueOne</localize></li>
+                        <li><localize>AbuOprationValueTwo</localize></li>
+                        <li><localize>AbuOprationValueThree</localize></li>
+                        <li><localize>AbuOprationValueFour</localize></li>
+                        <li><localize>AbuOprationValueA</localize></li>
+                        <li><localize>AbuOprationValueB</localize></li>
+                        <li><localize>AbuOprationValueC</localize></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <p><localize>AbuOperationDetailsOne</localize></p>
+        <p><localize>AbuOperationDetailsTwo</localize></p>
+        <p><localize>AbuOperationDetailsThree</localize></p>
+    </div>
+</section>
+<div class="white-text">
+    <div class="container">
+        <p>
+            <localize localizer="SharedLocalizer" html="true">FaqLink</localize>
+        </p>
+        <p>
+            <localize localizer="SharedLocalizer" html="true">EnquiriesLink</localize>
+        </p>
+    </div>
+</div>
+

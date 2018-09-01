@@ -1,0 +1,225 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@using IBT
+@inject IHtmlLocalizer<SharedResource> SharedLocalizer
+@{
+    ViewData["Title"] = SharedLocalizer.GetString("Faq");
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="breadcrumbs">
+    <ul class="breadcrumbs__inner">
+        <li class="breadcrumbs__item"><a href="/"><localize localizer="SharedLocalizer">MainPage</localize></a></li>
+        <li class="breadcrumbs__item breadcrumbs__item--active"><span><localize localizer="SharedLocalizer">Faq</localize></span></li>
+    </ul>
+</div>
+<div class="content">
+    <div class="container">
+        <h1 class="page-title"><localize localizer="SharedLocalizer">Faq</localize></h1>
+        <!--start .faq-->
+        <div class="faq">
+            <div class="faq-item js-faq opened">
+                <div class="faq-item__question">
+                    <localize html="true">Question1</localize>
+                </div>
+                <div class="faq-item__answer js-faq-answer">
+                    <p>
+                        <localize html="true">Answer1</localize>
+                    </p>
+                </div>
+                <button class="faq-item__btn js-faq-btn" type="button">
+                    <svg class="icon icon-arrow">
+                        <use xlink:href="#icon-arrow"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="faq-item js-faq">
+                <div class="faq-item__question">
+                    <localize>Question2</localize>
+                </div>
+                <div class="faq-item__answer js-faq-answer">
+                    <p><localize html="true">Answer2</localize></p>
+                </div>
+                <button class="faq-item__btn js-faq-btn" type="button">
+                    <svg class="icon icon-arrow">
+                        <use xlink:href="#icon-arrow"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="faq-item js-faq">
+                <div class="faq-item__question">
+                    <localize>Question3</localize>
+                </div>
+                <div class="faq-item__answer js-faq-answer">
+                    <p><localize html="true">Answer3</localize></p>
+                </div>
+                <button class="faq-item__btn js-faq-btn" type="button">
+                    <svg class="icon icon-arrow">
+                        <use xlink:href="#icon-arrow"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="faq-item js-faq">
+                <div class="faq-item__question">
+                    <localize>Question4</localize>
+                </div>
+                <div class="faq-item__answer js-faq-answer">
+                    <p><localize>Answer4</localize></p>
+                </div>
+                <button class="faq-item__btn js-faq-btn" type="button">
+                    <svg class="icon icon-arrow">
+                        <use xlink:href="#icon-arrow"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="faq-item js-faq">
+                <div class="faq-item__question">
+                    <localize>Question5</localize>
+                </div>
+                <div class="faq-item__answer js-faq-answer">
+                    <ol>
+                        <li><localize>Answer5.1</localize></li>
+                        <li><localize html="true">Answer5.2</localize></li>
+                    </ol>
+                </div>
+                <button class="faq-item__btn js-faq-btn" type="button">
+                    <svg class="icon icon-arrow">
+                        <use xlink:href="#icon-arrow"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="faq-item js-faq">
+                <div class="faq-item__question">
+                    <localize>Question6</localize>
+                </div>
+                <div class="faq-item__answer js-faq-answer">
+                    <p><localize html="true">Answer6</localize></p>
+                </div>
+                <button class="faq-item__btn js-faq-btn" type="button">
+                    <svg class="icon icon-arrow">
+                        <use xlink:href="#icon-arrow"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="faq-item js-faq">
+                <div class="faq-item__question">
+                    <localize>Question7</localize>
+                </div>
+                <div class="faq-item__answer js-faq-answer">
+                    <p><localize html="true">Answer7</localize></p>
+                </div>
+                <button class="faq-item__btn js-faq-btn" type="button">
+                    <svg class="icon icon-arrow">
+                        <use xlink:href="#icon-arrow"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="faq-item js-faq">
+                <div class="faq-item__question">
+                    <localize>Question8</localize>
+                </div>
+                <div class="faq-item__answer js-faq-answer">
+                    <p><localize html="true">Answer8</localize></p>
+                </div>
+                <button class="faq-item__btn js-faq-btn" type="button">
+                    <svg class="icon icon-arrow">
+                        <use xlink:href="#icon-arrow"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="faq-item js-faq">
+                <div class="faq-item__question">
+                    <localize>Question9</localize>
+                </div>
+                <div class="faq-item__answer js-faq-answer">
+                    <p><localize>Answer9.1</localize></p>
+                    <p><localize>Answer9.2</localize></p>
+                </div>
+                <button class="faq-item__btn js-faq-btn" type="button">
+                    <svg class="icon icon-arrow">
+                        <use xlink:href="#icon-arrow"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="faq-item js-faq">
+                <div class="faq-item__question">
+                    <localize>Question10</localize>
+                </div>
+                <div class="faq-item__answer js-faq-answer">
+                    <p><localize>Answer10</localize></p>
+                </div>
+                <button class="faq-item__btn js-faq-btn" type="button">
+                    <svg class="icon icon-arrow">
+                        <use xlink:href="#icon-arrow"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="faq-item js-faq">
+                <div class="faq-item__question">
+                    <localize>Question11</localize>
+                </div>
+                <div class="faq-item__answer js-faq-answer">
+                    <p><localize html="true">Answer11</localize></p>
+                </div>
+                <button class="faq-item__btn js-faq-btn" type="button">
+                    <svg class="icon icon-arrow">
+                        <use xlink:href="#icon-arrow"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="faq-item js-faq">
+                <div class="faq-item__question">
+                    <localize>Question12</localize>
+                </div>
+                <div class="faq-item__answer js-faq-answer">
+                    <p><localize html="true">Answer12</localize></p>
+                </div>
+                <button class="faq-item__btn js-faq-btn" type="button">
+                    <svg class="icon icon-arrow">
+                        <use xlink:href="#icon-arrow"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="faq-item js-faq">
+                <div class="faq-item__question">
+                    <localize>Question13</localize>
+                </div>
+                <div class="faq-item__answer js-faq-answer">
+                    <p><localize>Answer13</localize></p>
+                </div>
+                <button class="faq-item__btn js-faq-btn" type="button">
+                    <svg class="icon icon-arrow">
+                        <use xlink:href="#icon-arrow"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="faq-item js-faq">
+                <div class="faq-item__question">
+                    <localize>Question14</localize>
+                </div>
+                <div class="faq-item__answer js-faq-answer">
+                    <p><localize>Answer14</localize></p>
+                </div>
+                <button class="faq-item__btn js-faq-btn" type="button">
+                    <svg class="icon icon-arrow">
+                        <use xlink:href="#icon-arrow"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="faq-item js-faq">
+                <div class="faq-item__question">
+                    <localize html="true">Question15</localize>
+                </div>
+                <div class="faq-item__answer js-faq-answer">
+                    <p><localize>Answer15</localize></p>
+                </div>
+                <button class="faq-item__btn js-faq-btn" type="button">
+                    <svg class="icon icon-arrow">
+                        <use xlink:href="#icon-arrow"></use>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <!--end .faq-->
+    </div>
+</div>
+

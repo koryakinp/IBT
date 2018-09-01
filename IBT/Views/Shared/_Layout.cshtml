@@ -1,0 +1,213 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@using IBT
+@inject IHtmlLocalizer<SharedResource> SharedLocalizer
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+    <link rel="stylesheet" href="css/vendors/vendors.min.css">
+    <style>
+        .loaded * {
+            -webkit-transition: none !important;
+            -moz-transition: none !important;
+            -ms-transition: none !important;
+            transition: none !important;
+        }
+
+        .loaded .page {
+            height: 100vh;
+            opacity: 0;
+        }
+
+        .loaded {
+            overflow: hidden;
+            background: #ffffff url("/images/loader.svg") no-repeat center center;
+        }
+
+        .loaded .sidebar {
+            display: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body class="loaded">
+    <div class="page page--main">
+        <!-- begin .page-header-->
+        <header class="page-header">
+            <div class="page-header__inner">
+                <div class="container">
+                    <div class="logo">
+                        <a style="border-bottom: none;" href="/">
+                            <img src="/images/logo.svg" alt="">
+                        </a>
+                    </div>
+                    <nav class="main-menu js-main-menu">
+                        <a class="main-menu__item" href="/engineering">
+                            <localize localizer="SharedLocalizer">ForDesigners</localize>
+                        </a>
+                        <a class="main-menu__item" href="/advantages">
+                            <localize localizer="SharedLocalizer">Advantages</localize>
+                        </a>
+                        <a class="main-menu__item" href="/faq">
+                            <localize localizer="SharedLocalizer">Faq</localize>
+                        </a>
+                        <a class="main-menu__item" href="/contacts">
+                            <localize localizer="SharedLocalizer">Contacts</localize>
+                        </a>
+                        <div class="lng">
+                            <div class="lng__item lng__item--active">
+                                <svg class="icon icon-eng">
+                                    <use xlink:href="#icon-eng"></use>
+                                </svg>
+                            </div><a class="lng__item" href="#">
+                                <svg class="icon icon-deu">
+                                    <use xlink:href="#icon-deu"></use>
+                                </svg>
+                            </a><a class="lng__item" href="#">
+                                <svg class="icon icon-fra">
+                                    <use xlink:href="#icon-fra"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </nav>
+                    <div class="lng">
+                        <div class="lng__item lng__item--active">
+                            <svg class="icon icon-eng">
+                                <use xlink:href="#icon-eng"></use>
+                            </svg>
+                        </div><a class="lng__item" href="#">
+                            <svg class="icon icon-deu">
+                                <use xlink:href="#icon-deu"></use>
+                            </svg>
+                        </a><a class="lng__item" href="#">
+                            <svg class="icon icon-fra">
+                                <use xlink:href="#icon-fra"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <button class="menu-btn hamburger js-main-menu-btn"><span></span><span></span><span></span><span></span></button>
+                </div>
+            </div>
+        </header>
+        <!-- end .page-header-->
+        @RenderBody()
+        <!-- begin .page-footer-->
+        <footer class="page-footer">
+            <div class="page-footer__inner">
+                <div class="page-footer__row">
+                    <div class="page-footer__col">
+                        <div class="logo"><img src="/images/logo-white.svg" alt=""></div>
+                        <div class="copy">© DОО «Industrial Bio Technology», @DateTime.Now.Year</div>
+                    </div>
+                    <div class="page-footer__col">
+                        <ul class="secondary-menu">
+                            <li class="secondary-menu__item">
+                                <a class="secondary-menu__link" href="/advantages">
+                                    <localize localizer="SharedLocalizer">Advantages</localize>
+                                </a>
+                            </li>
+                            <li class="secondary-menu__item">
+                                <a class="secondary-menu__link" href="/engineering">
+                                    <localize localizer="SharedLocalizer">ForDesigners</localize>
+                                </a>
+                            </li>
+                            <li class="secondary-menu__item">
+                                <a class="secondary-menu__link" href="/faq">
+                                    <localize localizer="SharedLocalizer">Faq</localize>
+                                </a>
+                            </li>
+                            <li class="secondary-menu__item">
+                                <a class="secondary-menu__link" href="/contacts">
+                                    <localize localizer="SharedLocalizer">Contacts</localize>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="page-footer__col">
+                        <div class="company-card" itemscope itemtype="http://schema.org/Organization">
+                            <span itemprop="name">DOO «Industrial Bio Technology»</span>
+                            <div class="company-card__adr" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                                <span itemprop="addressLocality">
+                                    <localize>Serbia</localize>,&nbsp;
+                                </span>
+                                <span itemprop="postalCode">21000,&nbsp;</span>
+                                <span itemprop="addressLocality">
+                                    <localize>NoviSad</localize>,&nbsp;<br>
+                                </span>
+                                <span itemprop="streetAddress">Narodnogo Fronta br., 23C/106</span>
+                            </div><a class="company-card__email" href="mailto:info@ibtbiotechnology.com">
+                                <span itemprop="email">info@ibtbiotechnology.com</span>
+                            </a>
+                        </div>
+                        <div class="copy">&copy; DОО «Industrial Bio Technology», @DateTime.Now.Year</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end .page-footer-->
+    </div>
+    <script>
+        //SVG Ajax Loading
+        var ajax = new XMLHttpRequest();
+        ajax.open("GET", "/images/sprite.svg", true);
+        ajax.send();
+        ajax.onload = function (e) {
+            var block = document.createElement("div");
+            block.innerHTML = ajax.responseText;
+            document.body.insertBefore(block, document.body.childNodes[0]);
+        };
+
+        //SVG fix
+        document.addEventListener("DOMContentLoaded", function () {
+            var baseUrl = window.location.href
+                .replace(window.location.hash, "");
+
+            [].slice.call(document.querySelectorAll("use[*|href]"))
+
+                .filter(function (element) {
+                    return (element.getAttribute("xlink:href").indexOf("#") === 0);
+                })
+
+                .forEach(function (element) {
+                    element.setAttribute("xlink:href", baseUrl + element.getAttribute("xlink:href"));
+                });
+
+        }, false);
+
+        if (document.all) {
+            var browsehappy = document.createElement('div');
+            browsehappy.className = 'browsehappy';
+            browsehappy.innerHTML = '<div class="container">Вы используете <strong>слишком устаревшую версию</strong> браузера. Пожалуйста, <a href="http://browsehappy.com/?locale=ru_ru">обновите версию вашего браузера</a> для более продуктивной и комфортной работы.</div>';
+            document.body.appendChild(browsehappy);
+        }</script>
+    <link rel="stylesheet" href="/css/common.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/js/jquery/jquery.min.js"><\/script>')</script>
+    <script src="/js/common.min.js"></script>
+    <script>$(window).on('load', function () { $('body').removeClass('loaded') });</script>
+    <script src="js/vendors/vendors.min.js"></script>
+</body>
+</html>

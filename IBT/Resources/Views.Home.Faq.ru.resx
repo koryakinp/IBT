@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Answer1" xml:space="preserve">
+    <value>Габариты зависят от объема очищаемого воздуха и концентрации загрязняющих веществ. Пришлите нам планировку участка, где
+                        планируется разместить установку по очистке вентиляционного воздуха и мы обязательно найдем свободное «пятно», при необходимости
+                        изменим конструкцию установки очистки. Мы обязательно посетим Ваше предприятие и вместе примем необходимое решение.</value>
+  </data>
+  <data name="Answer10" xml:space="preserve">
+    <value>Для активации абсорбента по отношению к труднорастворимым загрязнителям (маслянистые вещества, неполярные ЛОС и др.) используются ПАВ в виде моющих средств в количестве 0,01-0,02% от объема рециркулирующей жидкости (20-40 кг/год).</value>
+  </data>
+  <data name="Answer11" xml:space="preserve">
+    <value>При наличии в вентвоздухе сажи и тонкодисперсной пыли в АБУ в качестве модификаторов раствора используются коагулянты и флокулянты для повышения эффекта сорбции взвесей, осветление абсорбента и упрощение процесса шламоудаления. Количество таких добавок не велико и составляет 20-30 мг на 1000 м&lt;sup&gt;3&lt;/sup&gt;/час.</value>
+  </data>
+  <data name="Answer12" xml:space="preserve">
+    <value>Абсорбционный раствор готовится и доводится до нужной кондиции только один раз во время запуска АБУ в эксплуатацию. В дальнейшем производится подпитка АБУ водой для компенсации потерь паро- и влаго- уноса. Расход колеблется в зависимости от температуры эксплуатации АБУ и может составлять от 0,1 м&lt;sup&gt;3&lt;/sup&gt;/сут. до 3,0 м&lt;sup&gt;3&lt;/sup&gt;/сут.</value>
+  </data>
+  <data name="Answer13" xml:space="preserve">
+    <value>В процессе эксплуатации АБУ   замена микроорганизмов не требуется в течение всего срока эксплуатации. В случае появления новых ингридиентов-загрязнителей (при изменении технологии производства) проводятся мероприятия по переадаптации существующего биоценоза к новым условиям с возможным внесением дополнительных культур микроорганизмов, что практически не сказывается на расходах, связанных с эксплуатацией  АБУ.</value>
+  </data>
+  <data name="Answer14" xml:space="preserve">
+    <value>АБУ имеет возможность достаточно легко перестраиваться к новым условиям эксплуатации. Для этого необходимо переадаптировать систему биореактора с возможным внесением дополнительных штаммов микроорганизмов.</value>
+  </data>
+  <data name="Answer15" xml:space="preserve">
+    <value>Сравнивать эти методы практически не возможно, так как в большинстве случаев из-за наличия в вентвоздухе смолистых, маслянистых, парафинообразных и др. конденсационных веществ рабочая поверхность фильтров теряет свою функциональность в течении нескольких рабочих смен.</value>
+  </data>
+  <data name="Answer2" xml:space="preserve">
+    <value>Никаких особых условий нет. Есть опыт работ работы скруббера при температуре -35°С. Биореактор может располагаться в любом помещении (например подвальном), где температура выше +5°С. Можно также частично использовать имеющееся у Вас и не используемые подземные резервуары, или элементы очистных сооружений.</value>
+  </data>
+  <data name="Answer3" xml:space="preserve">
+    <value>Это относится к биофильтрам и подобным им установкам. У нас же совершенно другая технология. Загрязняющее вещество из воздуха сначала переводится в водный раствор, и уже в водной среде биологически разлагаются. Для нормального функционирования нашей биотехнологии необходим рециркуляционный запас воды из расчета 0,5-1,0 м&lt;sup&gt;3&lt;/sup&gt; на 1000 м&lt;sup&gt;3&lt;/sup&gt;/ч очищаемого газа.</value>
+  </data>
+  <data name="Answer4" xml:space="preserve">
+    <value>Одним из преимуществ использования в качестве установки очистки воздуха АБУ является отсутствие отходов, требующих утилизации. Вредные органические вещества разлагаются до воды и углекислого газа. Так как используется аэротенк с волокнистой насадкой активный ил практически полностью отсутствует. Из секции шламоулавливания при помощи эрлифта удаляются взвешенные вещества, которые содержались в вентиляционном воздухе</value>
+  </data>
+  <data name="Answer5.1" xml:space="preserve">
+    <value>Фенол и формальдегид имеют практически неограниченную растворимость в воде. Что касается абсорбции из газообразного состояния, то при температуре ниже точки кипения вещества равновесие будет будет смещаться в направлении жидкой фазы.</value>
+  </data>
+  <data name="Answer5.2" xml:space="preserve">
+    <value>Механизмы абсорбции с использованием технической воды в АБУ и с использованием щелочного раствора в «кислотном» скруббере одинаковы: фенол сначала растворяется в воде (за счет разницы парциальных давлений фенола в газовой фазе и на границе раздела фаз газ-вода), а затем реагирует, например с NaOH с образованием фенолята, в «кислотном» скруббере, либо подвергается деструкции микроорганизмами в АБУ.</value>
+  </data>
+  <data name="Answer6" xml:space="preserve">
+    <value>В АБУ в качестве абсорбента используется вода, поэтому пожарной опасности не существует. В опыте эксплуатации АБУ были случаи, когда возгорание воздуховодов от технологического высокотемпературного оборудования пресекалось в АБУ. После АБУ  температура вентвыброса гарантированно не выше 35&amp;#176;С</value>
+  </data>
+  <data name="Answer7" xml:space="preserve">
+    <value>Установка переводится в режим ожидания. До 2-х недель простоя ни каких мероприятий не требуется. Затем рекомендуется вводить в установку загрязнитель (формалин, аммиак) для поддержания жизнедеятельности микроорганизмов. Впрочем, если даже совсем «забыть» об установке скажем на полгода, часть микроорганизмов все равно останется (в состоянии анабиоза), просто выход на рабочий режим займет больше времени (до 2-х недель).</value>
+  </data>
+  <data name="Answer8" xml:space="preserve">
+    <value>Нет. Гибель микроорганизмов - это наступление факторов, разрушающих белок или препятствующих его росту. Таких факторов два: перегрев раствора свыше 50 градусов  и попадание в абсорбент сильных антибиотиков. В обычных производственных условиях эксплуатации АБУ такие факторы отсутствуют, поэтому говорить о гибели микроорганизмов не приходится.</value>
+  </data>
+  <data name="Answer9.1" xml:space="preserve">
+    <value>В качестве биогенных расходных материалов для АБУ применяются минеральные соли (в виде стандартных сельхозудобрений), содержащие ионы аммония и фосфата.</value>
+  </data>
+  <data name="Answer9.2" xml:space="preserve">
+    <value>Потребленное количество 0,1-0,2 кг/сутки (30-50 кг в год)</value>
+  </data>
+  <data name="Question1" xml:space="preserve">
+    <value>У нас на предприятии сложно найти место для размещения установки пылегазоочистки. &lt;br&gt;Какие габариты Вашей установки очистки?</value>
+  </data>
+  <data name="Question10" xml:space="preserve">
+    <value>Возможна ли очистка в  АБУ вентвоздуха от паров масляного тумана и труднорастворимых неполярных ЛОС?</value>
+  </data>
+  <data name="Question11" xml:space="preserve">
+    <value>Имеется ли возможность улавливания в АБУ сажи и тонкодисперсной пыли?</value>
+  </data>
+  <data name="Question12" xml:space="preserve">
+    <value>Как часто нужно менять абсорбционный раствор?</value>
+  </data>
+  <data name="Question13" xml:space="preserve">
+    <value>Требуется ли замена микроорганизмов и в каких случаях?</value>
+  </data>
+  <data name="Question14" xml:space="preserve">
+    <value>Что делать с АБУ в случае изменения технологии и производства параметров вентвыбросов?</value>
+  </data>
+  <data name="Question15" xml:space="preserve">
+    <value>Какие преимущества у «сухих» методов очистки вентвоздуха (адсорбенты, катализаторы, газоразрядные ячейки) от органических загрязнителей перед абсорбцией?</value>
+  </data>
+  <data name="Question2" xml:space="preserve">
+    <value>Какие требования к условиям окружающей среды в месте монтажа АБУ?</value>
+  </data>
+  <data name="Question3" xml:space="preserve">
+    <value>Существует мнение, что установки биологической очистки имеют большие габариты и сложны в эксплуатации?</value>
+  </data>
+  <data name="Question4" xml:space="preserve">
+    <value>Какие отходы образуются при эксплуатации установки очистки воздуха АБУ ?</value>
+  </data>
+  <data name="Question5" xml:space="preserve">
+    <value>Может ли техническая вода абсорбировать 98,0-99,0 % фенола, формальдегида?</value>
+  </data>
+  <data name="Question6" xml:space="preserve">
+    <value>Существует ли пожарная опасность от установки?</value>
+  </data>
+  <data name="Question7" xml:space="preserve">
+    <value>Что может произойти в случае остановки системы и есть ли критический срок для такой остановки ?</value>
+  </data>
+  <data name="Question8" xml:space="preserve">
+    <value>Может ли произойти гибель микроорганизмов в АБУ?</value>
+  </data>
+  <data name="Question9" xml:space="preserve">
+    <value>Какие нужны расходные материалы для АБУ и сколько?</value>
+  </data>
+</root>

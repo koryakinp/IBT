@@ -1,0 +1,339 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@using IBT
+@model IBT.Models.Abu
+@inject IHtmlLocalizer<SharedResource> SharedLocalizer
+
+@{
+    ViewData["Title"] = SharedLocalizer.GetString("Abu", Model.Model);
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .counter-2:before {
+        content: "2.";
+    }
+
+    .counter-3:before {
+        content: "3.";
+    }
+
+    .counter-4:before {
+        content: "4.";
+    }
+
+    .counter-5:before {
+        content: "5.";
+    }
+
+    .counter-6:before {
+        content: "6.";
+    }
+
+    .counter-7:before {
+        content: "7.";
+    }
+</style>
+
+<div class="breadcrumbs">
+    <ul class="breadcrumbs__inner">
+        <li class="breadcrumbs__item"><a href="/"><localize localizer="SharedLocalizer">MainPage</localize></a></li>
+        <li class="breadcrumbs__item"><a href="/Engineering"><localize localizer="SharedLocalizer">ForDesigners</localize></a></li>
+        <li class="breadcrumbs__item breadcrumbs__item--active">
+            <span>
+                <localize localizer="SharedLocalizer">
+                    <parameter>@Model.Model</parameter>
+                    Abu
+                </localize>
+            </span>
+        </li>
+    </ul>
+</div>
+<div class="content white-text">
+    <div class="container">
+        <h1 class="page-title">
+            <localize localizer="SharedLocalizer">
+                <parameter>@Model.Model</parameter>
+                Abu
+            </localize>
+        </h1>
+        <img class="pull-right" src="@Model.ImageUrl" alt="">
+
+        <div class="page-sub-title">
+            <p>
+                <localize html="true">
+                    <parameter>@Model.Model</parameter>
+                    <parameter>@Model.Model</parameter>
+                    AbuTitle
+                </localize>
+            </p>
+            <p>
+                <localize>
+                    <parameter>@Model.Model</parameter>
+                    AbuSpecTitle
+                </localize>
+            </p>
+        </div>
+        <p>
+            <strong>
+                <localize>
+                    <parameter>@Model.Model</parameter>
+                    AbuDimensions
+                </localize>
+            </strong>
+        </p>
+        <ul>
+            <li>
+                <localize>AbuPhenolEfficiencyTitle</localize>
+                <ul>
+                    <li>
+                        <localize html="true">
+                            <parameter>95%</parameter>
+                            <parameter>>20</parameter>
+                            AbuPhenolEfficiencyValue
+                        </localize>
+                    </li>
+                    <li>
+                        <localize html="true">
+                            <parameter>85%</parameter>
+                            <parameter>10-20</parameter>
+                            AbuPhenolEfficiencyValue
+                        </localize>
+                    </li>
+                    <li>
+                        <localize html="true">
+                            <parameter>80%</parameter>
+                            <parameter>6-10</parameter>
+                            AbuPhenolEfficiencyValue
+                        </localize>
+                    </li>
+                    <li>
+                        <localize html="true">
+                            <parameter>70%</parameter>
+                            <parameter>4-6</parameter>
+                            AbuPhenolEfficiencyValue
+                        </localize>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <localize html="true">
+                    AbuTriethylamineEfficiencyTitle
+                </localize>
+                <ul>
+                    <li>
+                        <localize>AbuTriethylamineEfficiencyValue1</localize>
+                    </li>
+                    <li>
+                        <localize>AbuTriethylamineEfficiencyValue2</localize>
+                    </li>
+                    <li>
+                        <localize>AbuTriethylamineEfficiencyValue3</localize>
+                    </li>
+                    <li>
+                        <localize html="true">AbuTriethylamineEfficiencyValue4</localize>
+                    </li>
+                    <li>
+                        <localize>
+                            <parameter>@Model.Size.Length</parameter>
+                            <parameter>@Model.Size.Width</parameter>
+                            <parameter>@Model.Size.Height</parameter>
+                            AbuTriethylamineEfficiencyValue5
+                        </localize>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <p>
+            <strong><localize>AbuElectricalConsumptionTitle</localize></strong>
+        </p>
+        <ul>
+            <li>
+                <localize>
+                    <parameter>@Model.DefaultPower</parameter>
+                    <parameter>@Model.FanPower</parameter>
+                    AbuElectricalConsumptionValue1
+                </localize>
+            </li>
+            <li>
+                <localize html="true">
+                    <parameter>@Model.Humidity</parameter>
+                    AbuElectricalConsumptionValue2
+                </localize>
+            </li>
+            <li>
+                <localize html="true">
+                    <parameter>@Model.Air</parameter>
+                    AbuElectricalConsumptionValue3
+                </localize>
+            </li>
+            <li>
+                <localize html="true">
+                    <parameter>@Model.Bio</parameter>
+                    AbuElectricalConsumptionValue4
+                </localize>
+            </li>
+        </ul>
+        <p>
+            <strong>
+                <localize>
+                    <parameter>@Model.Model</parameter>
+                    AbuMaintenanceTitle
+                </localize>
+            </strong>
+        </p>
+        <p>
+            <localize>AbuMaintenanceValue</localize>
+        </p>
+        <p>
+            <strong>
+                <localize>
+                    <parameter>@Model.Model</parameter>
+                    AbuInstallationTitle1
+                </localize>
+                <br>
+                <localize>AbuInstallationTitle2</localize>
+            </strong>
+        </p>
+        <ol>
+            <li>
+                <localize>AbuInstallationValue1</localize>
+            </li>
+            <li>
+                <localize>
+                    <parameter>@Model.Load</parameter>
+                    AbuInstallationValue2
+                </localize>
+            </li>
+            <li><localize>AbuInstallationValue3</localize></li>
+            <li>
+                <localize>AbuInstallationValue4</localize>
+                <p><localize html="true">AbuInstallationValue4.1</localize></p>
+                <p><localize>AbutDrainageTitle</localize></p>
+                <ul>
+                    <li><localize>AbutDrainageValue1</localize></li>
+                    <li><localize>AbutDrainageValue2</localize></li>
+                    <li><localize>AbutDrainageValue3</localize></li>
+                    <li><localize html="true">AbutDrainageValue4</localize></li>
+                    <li><localize>AbutDrainageValue5</localize></li>
+                </ul>
+            </li>
+            <li class="counter-5"><localize>AbuInstallationValue5</localize></li>
+            <li class="counter-6"><localize html="true">AbuInstallationValue6</localize></li>
+            <li class="counter-7"><localize html="true">AbuInstallationValue7</localize></li>
+        </ol>
+        <p><strong><localize>AbuElectricityTitle</localize></strong></p>
+        <ol>
+            <li>
+                <localize>AbuElectricityValue1</localize>
+                <ul>
+                    <li>
+                        <localize>
+                            <parameter>@Model.PowerConsumption1</parameter>
+                            AbuElectricityValue1.1
+                        </localize>
+                    </li>
+                    <li>
+                        <localize>
+                            <parameter>@Model.PowerConsumption2</parameter>
+                            AbuElectricityValue1.2
+                        </localize>
+                    </li>
+                    <li>
+                        <localize>
+                            <parameter>@Model.PowerConsumption3</parameter>
+                            AbuElectricityValue1.3
+                        </localize>
+                    </li>
+                    <li><localize>AbuElectricityValue1.4</localize></li>
+                    <li><localize>AbuElectricityValue1.5</localize></li>
+                </ul>
+                <p><localize>AbuElectricityValue1.6</localize></p>
+            </li>
+            <li class="counter-2"><localize>AbuElectricityValue2</localize></li>
+            <li class="counter-3"><localize>AbuElectricityValue3</localize></li>
+            <li class="counter-4"><localize html="true">AbuElectricityValue4</localize></li>
+            <li class="counter-5"><localize>AbuElectricityValue5</localize></li>
+        </ol>
+
+        <p><strong><localize>AbuWaterSupplyTitle</localize></strong></p>
+        <ol>
+            <li><localize html="true">AbuWaterSupplyValue1</localize></li>
+            <li><localize html="true">AbuWaterSupplyValue2</localize></li>
+            <li>
+                <localize>AbuWaterSupplyValue3</localize>
+                <ul>
+                    <li><localize>AbuWaterSupplyValue3.1</localize></li>
+                    <li><localize>AbuWaterSupplyValue3.2</localize></li>
+                    <li><localize html="true">AbuWaterSupplyValue3.3</localize></li>
+                </ul>
+                <p><localize>AbuWaterSupplyValue3.4</localize></p>
+            </li>
+            <li class="counter-4"><localize>AbuWaterSupplyValue4</localize></li>
+            <li class="counter-5"><localize>AbuWaterSupplyValue5</localize></li>
+        </ol>
+        <p><strong><localize>AbuCompressedAirTitle</localize></strong></p>
+        <ol>
+            <li><localize html="true">AbuCompressedAirValue1</localize></li>
+            <li>
+                <localize>AbuCompressedAirValue2</localize>
+                <p><localize>AbuCompressedAirValue2.1</localize></p>
+                <ul>
+                    <li><localize>AbuCompressedAirValue2.2</localize></li>
+                    <li><localize html="true">AbuCompressedAirValue2.3</localize></li>
+                    <li><localize>AbuCompressedAirValue2.4</localize></li>
+                </ul>
+            </li>
+            <li class="counter-3"><localize>AbuCompressedAirValue3</localize></li>
+            <li class="counter-4"><localize>AbuCompressedAirValue4</localize></li>
+            <li class="counter-5"><localize>AbuCompressedAirValue5</localize></li>
+        </ol>
+        <p><strong><localize>AbuVentilationTitle</localize></strong></p>
+        <ol>
+            <li>
+                <localize>AbuVentilationValue1</localize>
+                <p><localize html="true">AbuVentilationValue1.1</localize></p>
+                <p><localize html="true">AbuVentilationValue1.2</localize></p>
+                <p><localize>AbuVentilationValue1.3</localize></p>
+            </li>
+            <li>
+                <localize>
+                    <parameter>@Model.Ventilator</parameter>
+                    AbuVentilationValue2
+                </localize>
+                <ul>
+                    <li>
+                        <localize>
+                            <parameter>@Model.VentilatorEngine</parameter>
+                            <parameter>@Model.VentilatorRPM</parameter>
+                            AbuVentilationValue2.1
+                        </localize>
+                    </li>
+                    <li><localize>AbuVentilationValue2.2</localize></li>
+                    <li>
+                        <localize>
+                            <parameter>@Model.VentilatorRPM</parameter>
+                            AbuVentilationValue2.3
+                        </localize>
+                    </li>
+                </ul>
+                <p>
+                    <localize>
+                        <parameter>@Model.Ventilator</parameter>
+                        AbuVentilationValue2.4
+                    </localize>
+                </p>
+                <p>
+                    <localize>AbuVentilationValue2.5</localize>
+                </p>
+            </li>
+            <li class="counter-3"><localize>AbuVentilationValue3</localize></li>
+            <li class="counter-4">
+                <localize>AbuVentilationValue4</localize>
+                <p><localize>AbuVentilationValue4.1</localize></p>
+            </li>
+        </ol>
+        <p><strong><localize>AbuLifespanTitle</localize></strong></p>
+        <p><localize>AbuLifespanValue</localize></p>
+    </div>
+</div>
+
