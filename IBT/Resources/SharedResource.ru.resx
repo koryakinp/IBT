@@ -120,6 +120,9 @@
   <data name="Abu" xml:space="preserve">
     <value>АБУ-{0}</value>
   </data>
+  <data name="abuSpecsFilename" xml:space="preserve">
+    <value>Технические Характеристики</value>
+  </data>
   <data name="Advantages" xml:space="preserve">
     <value>Преимущества</value>
   </data>
@@ -127,7 +130,7 @@
     <value>Контакты</value>
   </data>
   <data name="EnquiriesLink" xml:space="preserve">
-    <value>Для подготовки технико-коммерческого предложения на поставку АБУ для вашего предприятия заполните и отправьте в наш адрес&amp;nbsp;&lt;a href="#"&gt;опросный лист&amp;nbsp;&lt;/a&gt;. Вы можете направить нам запрос в произвольной форме.</value>
+    <value>Для подготовки технико-коммерческого предложения на поставку АБУ для вашего предприятия заполните и отправьте в наш адрес&amp;nbsp;&lt;a href="/File/Index?file=Questioneer"&gt;опросный лист&amp;nbsp;&lt;/a&gt;. Вы можете направить нам запрос в произвольной форме.</value>
   </data>
   <data name="Faq" xml:space="preserve">
     <value>Вопросы - ответы</value>
@@ -143,6 +146,9 @@
   </data>
   <data name="NoviSad" xml:space="preserve">
     <value>Нови-Сад</value>
+  </data>
+  <data name="Questioneer" xml:space="preserve">
+    <value>IBT Опросный Лист</value>
   </data>
   <data name="Serbia" xml:space="preserve">
     <value>Республика Сербия</value>

@@ -241,13 +241,13 @@
 1000 МДж).</value>
   </data>
   <data name="AbuLifespanTitle" xml:space="preserve">
-    <value>Срок эксплуатации</value>
+    <value>5. Срок эксплуатации</value>
   </data>
   <data name="AbuLifespanValue" xml:space="preserve">
     <value>Срок эксплуатации не менее 20 лет.</value>
   </data>
   <data name="AbuMaintenanceTitle" xml:space="preserve">
-    <value>Техническое обслуживание АБУ-{0}</value>
+    <value>3. Техническое обслуживание АБУ-{0}</value>
   </data>
   <data name="AbuMaintenanceValue" xml:space="preserve">
     <value>Обслуживание АБУ сводится к освобождению шламовой корзины
@@ -293,7 +293,7 @@
 (на выходе концентрация триэтиламина не более 20 мг/м&lt;sup&gt;3&lt;/sup&gt;):</value>
   </data>
   <data name="AbuTriethylamineEfficiencyValue1" xml:space="preserve">
-    <value>эффективность улавливания взвешенных веществ – не менее 98%</value>
+    <value>Эффективность улавливания взвешенных веществ – не менее 98%</value>
   </data>
   <data name="AbuTriethylamineEfficiencyValue2" xml:space="preserve">
     <value>сопротивление вентиляционной сети – не более 1700 Па</value>

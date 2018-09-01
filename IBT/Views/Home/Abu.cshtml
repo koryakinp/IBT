@@ -9,6 +9,12 @@
 }
 
 <style>
+    .download-icon {
+        margin-left:10px;
+        color:black;
+        border-bottom:none;
+    }
+
     .counter-2:before {
         content: "2.";
     }
@@ -32,6 +38,10 @@
     .counter-7:before {
         content: "7.";
     }
+
+    .page-title:after {
+        width: 100% !important;
+    }
 </style>
 
 <div class="breadcrumbs">
@@ -50,26 +60,34 @@
 </div>
 <div class="content white-text">
     <div class="container">
-        <h1 class="page-title">
-            <localize localizer="SharedLocalizer">
-                <parameter>@Model.Model</parameter>
-                Abu
-            </localize>
+        <h1>
+            <span class="page-title">
+                <localize localizer="SharedLocalizer">
+                    <parameter>@Model.Model</parameter>
+                    Abu
+                </localize>
+                <a href="/File/Abu/@Model.Model" class="download-icon">
+                    <span>
+                        <i class="fas fa-file-download"></i>
+                    </span>
+                </a>
+            </span>
         </h1>
+
         <img class="pull-right" src="@Model.ImageUrl" alt="">
 
         <div class="page-sub-title">
+            <p>
+                <localize>
+                    <parameter>@Model.Model</parameter>
+                    AbuSpecTitle
+                </localize>
+            </p>
             <p>
                 <localize html="true">
                     <parameter>@Model.Model</parameter>
                     <parameter>@Model.Model</parameter>
                     AbuTitle
-                </localize>
-            </p>
-            <p>
-                <localize>
-                    <parameter>@Model.Model</parameter>
-                    AbuSpecTitle
                 </localize>
             </p>
         </div>
@@ -116,13 +134,13 @@
                 </ul>
             </li>
             <li>
+                <localize>AbuTriethylamineEfficiencyValue1</localize>
+            </li>
+            <li>
                 <localize html="true">
                     AbuTriethylamineEfficiencyTitle
                 </localize>
                 <ul>
-                    <li>
-                        <localize>AbuTriethylamineEfficiencyValue1</localize>
-                    </li>
                     <li>
                         <localize>AbuTriethylamineEfficiencyValue2</localize>
                     </li>

@@ -21,7 +21,7 @@
     <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
     <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
-    <link rel="stylesheet" href="css/vendors/vendors.min.css">
+    <link rel="stylesheet" href="/css/vendors/vendors.min.css">
     <style>
         .loaded * {
             -webkit-transition: none !important;
@@ -150,14 +150,15 @@
                         <div class="company-card" itemscope itemtype="http://schema.org/Organization">
                             <span itemprop="name">DOO «Industrial Bio Technology»</span>
                             <div class="company-card__adr" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-                                <span itemprop="addressLocality">
-                                    <localize>Serbia</localize>,&nbsp;
-                                </span>
-                                <span itemprop="postalCode">21000,&nbsp;</span>
-                                <span itemprop="addressLocality">
-                                    <localize>NoviSad</localize>,&nbsp;<br>
-                                </span>
-                                <span itemprop="streetAddress">Narodnogo Fronta br., 23C/106</span>
+                                <span itemprop="postalCode">
+                                    21000,&nbsp;
+                                    <span itemprop="addressLocality">
+                                        <localize localizer="SharedLocalizer">Serbia</localize>,&nbsp;
+                                    </span>
+                                    <span itemprop="addressLocality">
+                                        <localize localizer="SharedLocalizer">NoviSad</localize>,&nbsp;<br>
+                                    </span>
+                                    <span itemprop="streetAddress">Narodnog fronta, 23C/106</span>
                             </div><a class="company-card__email" href="mailto:info@ibtbiotechnology.com">
                                 <span itemprop="email">info@ibtbiotechnology.com</span>
                             </a>
@@ -205,9 +206,8 @@
         }</script>
     <link rel="stylesheet" href="/css/common.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="/js/jquery/jquery.min.js"><\/script>')</script>
+    <script src="/js/vendors/vendors.min.js"></script>
     <script src="/js/common.min.js"></script>
     <script>$(window).on('load', function () { $('body').removeClass('loaded') });</script>
-    <script src="js/vendors/vendors.min.js"></script>
 </body>
 </html>

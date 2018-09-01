@@ -127,7 +127,7 @@
     <value>Ваш вопрос/сообщение</value>
   </data>
   <data name="Name" xml:space="preserve">
-    <value>Ваше имя</value>
+    <value>Ваша компания/Ваше имя</value>
   </data>
   <data name="Send" xml:space="preserve">
     <value>Отправить</value>

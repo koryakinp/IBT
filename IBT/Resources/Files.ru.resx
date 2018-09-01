@@ -117,40 +117,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Abu" xml:space="preserve">
-    <value>ABU-{0}</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="abu10specs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\16.07.2018 Документы для сайта-1\Исходный текст на русском\ABU-10 характеристики rus.docx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="abuSpecsFilename" xml:space="preserve">
-    <value>Technical Specifications</value>
+  <data name="abu25specs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\16.07.2018 Документы для сайта-1\Исходный текст на русском\ABU-25 характеристики rus.docx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Advantages" xml:space="preserve">
-    <value>Advantages</value>
+  <data name="abu5specs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\16.07.2018 Документы для сайта-1\Исходный текст на русском\ABU-5 характеристики rus.docx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Contacts" xml:space="preserve">
-    <value>Contacts</value>
-  </data>
-  <data name="EnquiriesLink" xml:space="preserve">
-    <value>To get a technical and business offer of an ABU for your company, please fill out and send to us the&amp;nbsp;&lt;a href="/File/Index?file=Questioneer"&gt;questionnaire&amp;nbsp;&lt;/a&gt;. You also are welcome to send us an enquiry in a free form.</value>
-  </data>
-  <data name="Faq" xml:space="preserve">
-    <value>FAQ</value>
-  </data>
-  <data name="FaqLink" xml:space="preserve">
-    <value>Please check our website for the &amp;nbsp;&lt;a href="/faq"&gt;most frequently asked questions&amp;nbsp;&lt;/a&gt; about ABU operation and answers to them.</value>
-  </data>
-  <data name="ForDesigners" xml:space="preserve">
-    <value>For Designers</value>
-  </data>
-  <data name="MainPage" xml:space="preserve">
-    <value>Main Page</value>
-  </data>
-  <data name="NoviSad" xml:space="preserve">
-    <value>Novi Sad</value>
-  </data>
-  <data name="Questioneer" xml:space="preserve">
-    <value>IBT Questioneer</value>
-  </data>
-  <data name="Serbia" xml:space="preserve">
-    <value>Republic of Serbia</value>
+  <data name="Questioneer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\16.07.2018 Документы для сайта-1\Исходный текст на русском\IBT Опросный лист.docx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>
