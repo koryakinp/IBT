@@ -6,6 +6,32 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+<style>
+    .upload-btn-wrapper {
+        position: relative;
+        overflow: hidden;
+        display: inline-block;
+    }
+
+    .btn {
+        border: 2px solid gray;
+        color: gray;
+        background-color: white;
+        padding: 8px 20px;
+        border-radius: 8px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .upload-btn-wrapper input[type=file] {
+        font-size: 100px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+    }
+</style>
+
 <div class="breadcrumbs">
     <ul class="breadcrumbs__inner">
         <li class="breadcrumbs__item"><a href="/"><localize localizer="SharedLocalizer">MainPage</localize></a></li>
@@ -16,7 +42,7 @@
     <div class="container">
         <h1 class="page-title"><localize localizer="SharedLocalizer">Contacts</localize></h1>
         <h2><localize>LeaveMessage</localize></h2>
-        <form class="feedback-frm" action="/Mail/SendEmail" method="post">
+        <form class="feedback-frm" method="POST" action="/Mail/SendEmail" enctype="multipart/form-data">
             <div class="input-row">
                 <div class="input-wrap">
                     <label for="feedback-name"><localize>Name</localize></label>
@@ -31,7 +57,17 @@
                 <label for="feedback-msg"><localize>Message</localize></label>
                 <textarea required id="feedback-msg" name="body"></textarea>
             </div>
-            <button class="btn--2 feedback-frm__submit" type="submit"><localize>Send</localize></button>
+
+            <div class="upload-btn-wrapper input-wrap">
+                <button class="btn">
+                    <localize>UploadFile</localize>
+                </button>
+                <input id="file-upload-control" type="file" multiple name="files" />
+            </div>
+
+            <ul id="file-list"></ul>
+
+            <button style="margin-top: 20px; display: block;" class="btn--2 feedback-frm__submit" type="submit" id="contact-form-submit-button"><localize>Send</localize></button>
         </form>
     </div>
 </div>

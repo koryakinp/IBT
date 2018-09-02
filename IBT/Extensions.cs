@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Resources;
-using System.Threading.Tasks;
 
 namespace IBT
 {
@@ -19,7 +16,7 @@ namespace IBT
             }
             else
             {
-                throw new System.InvalidCastException("The specified resource is not a binary resource.");
+                throw new InvalidCastException("The specified resource is not a binary resource.");
             }
         }
     }

@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Localization;
 using System.Linq;
 
@@ -7,11 +8,13 @@ namespace IBT.Controllers
     public class FileController : Controller
     {
         private readonly IStringLocalizer _localizer;
+        private readonly IConfiguration _configuration;
 
-        public FileController(IStringLocalizerFactory factory)
+        public FileController(IStringLocalizerFactory factory, IConfiguration configuration)
         {
             var type = typeof(SharedResource);
             _localizer = factory.Create(type);
+            _configuration = configuration;
         }
 
         public FileResult Index(string file)

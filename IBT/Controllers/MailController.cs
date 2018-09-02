@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
+using System.IO;
 using System.Threading.Tasks;
+using IBT.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using SendGrid;
@@ -15,34 +17,63 @@ namespace IBT.Controllers
 
         public MailController(IConfiguration configuration)
         {
+
             _configuration = configuration;
         }
 
-        public async Task<IActionResult> SendEmail(string name, string body, string email)
+        [HttpPost]
+        public async Task<IActionResult> SendEmail(EmailMessage message, List<IFormFile> files)
         {
             var destination = _configuration["RecepientEmail"];
             var token = _configuration["SendGridApiToken"];
 
             var client = new SendGridClient(token);
-            var from = new EmailAddress("noreply@ibtbiotechnology.com", "IBT Industrial Bio Technology");
-            var to = new EmailAddress(destination, "IBT Industrial Bio Technology");
+            var from = new EmailAddress("noreply@ibtbiotechnology.com", Consts.COMPANY_NAME);
+            var to = new EmailAddress(destination, Consts.COMPANY_NAME);
 
-            var bodyPlain = "";
-            var bodyHtml = "";
+            var msg = MailHelper.CreateSingleEmail(
+                from, 
+                to, 
+                Consts.EMAIL_TITLE,
+                BuildPlainBody(message), 
+                BuildHtmlBody(message));
 
-            bodyPlain += $"От: {name}{Environment.NewLine}";
-            bodyPlain += $"Email: {email}{Environment.NewLine}";
-            bodyPlain += $"Сообщение: {body}{Environment.NewLine}";
+            msg.ReplyTo = new EmailAddress(message.Email);
 
-            bodyHtml += $"<p>От: {name}{Environment.NewLine}</p>";
-            bodyHtml += $"<p>Email: {email}{Environment.NewLine}</p>";
-            bodyHtml += $"<p>Сообщение: {body}{Environment.NewLine}</p>";
+            foreach (var file in files)
+            {
+                using (var stream = new MemoryStream())
+                {
+                    file.CopyTo(stream);
+                    var encoded = Convert.ToBase64String(stream.ToArray());
+                    msg.AddAttachment(file.FileName, encoded, file.ContentType);
+                }
+            }
 
-            var msg = MailHelper.CreateSingleEmail(from, to, "Сообщение с контактной формы", bodyPlain, bodyHtml);
-            msg.ReplyTo = new EmailAddress(email);
-            var response = await client.SendEmailAsync(msg);
+            await client.SendEmailAsync(msg);
 
             return RedirectToAction("Contacts", "Home");
+        }
+
+        private string BuildPlainBody(EmailMessage message)
+        {
+            var bodyPlain = "";
+
+            bodyPlain += $"От: {message.Name}{Environment.NewLine}";
+            bodyPlain += $"Email: {message.Email}{Environment.NewLine}";
+            bodyPlain += $"Сообщение: {message.Body}{Environment.NewLine}";
+
+            return bodyPlain;
+        }
+
+        private string BuildHtmlBody(EmailMessage message)
+        {
+            var bodyHtml = "";
+            bodyHtml += $"<p>От: {message.Name}{Environment.NewLine}</p>";
+            bodyHtml += $"<p>Email: {message.Email}{Environment.NewLine}</p>";
+            bodyHtml += $"<p>Сообщение: {message.Body}{Environment.NewLine}</p>";
+
+            return bodyHtml;
         }
     }
 }

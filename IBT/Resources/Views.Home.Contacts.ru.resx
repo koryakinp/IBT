@@ -132,4 +132,7 @@
   <data name="Send" xml:space="preserve">
     <value>Отправить</value>
   </data>
+  <data name="UploadFile" xml:space="preserve">
+    <value>Прикрепить Файл</value>
+  </data>
 </root>

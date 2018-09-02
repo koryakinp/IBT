@@ -117,22 +117,100 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Email" xml:space="preserve">
-    <value>E-mail</value>
+  <data name="Answer1" xml:space="preserve">
+    <value>[Answer1]</value>
   </data>
-  <data name="LeaveMessage" xml:space="preserve">
-    <value>Contact us</value>
+  <data name="Answer10" xml:space="preserve">
+    <value>[Answer10]</value>
   </data>
-  <data name="Message" xml:space="preserve">
-    <value>Message</value>
+  <data name="Answer11" xml:space="preserve">
+    <value>[Answer11]</value>
   </data>
-  <data name="Name" xml:space="preserve">
-    <value>Company/Name</value>
+  <data name="Answer12" xml:space="preserve">
+    <value>[Answer12]</value>
   </data>
-  <data name="Send" xml:space="preserve">
-    <value>Submit</value>
+  <data name="Answer13" xml:space="preserve">
+    <value>[Answer13]</value>
   </data>
-  <data name="UploadFile" xml:space="preserve">
-    <value>Add an Attachment</value>
+  <data name="Answer14" xml:space="preserve">
+    <value>[Answer14]</value>
+  </data>
+  <data name="Answer15" xml:space="preserve">
+    <value>[Answer15]</value>
+  </data>
+  <data name="Answer2" xml:space="preserve">
+    <value>[Answer2]</value>
+  </data>
+  <data name="Answer3" xml:space="preserve">
+    <value>[Answer3]</value>
+  </data>
+  <data name="Answer4" xml:space="preserve">
+    <value>[Answer4]</value>
+  </data>
+  <data name="Answer5.1" xml:space="preserve">
+    <value>[Answer5.1]</value>
+  </data>
+  <data name="Answer5.2" xml:space="preserve">
+    <value>[Answer5.2]</value>
+  </data>
+  <data name="Answer6" xml:space="preserve">
+    <value>[Answer6]</value>
+  </data>
+  <data name="Answer7" xml:space="preserve">
+    <value>[Answer7]</value>
+  </data>
+  <data name="Answer8" xml:space="preserve">
+    <value>[Answer8]</value>
+  </data>
+  <data name="Answer9.1" xml:space="preserve">
+    <value>[Answer9.1]</value>
+  </data>
+  <data name="Answer9.2" xml:space="preserve">
+    <value>[Answer9.2]</value>
+  </data>
+  <data name="Question1" xml:space="preserve">
+    <value>[Question1]</value>
+  </data>
+  <data name="Question10" xml:space="preserve">
+    <value>[Question10]</value>
+  </data>
+  <data name="Question11" xml:space="preserve">
+    <value>[Question11]</value>
+  </data>
+  <data name="Question12" xml:space="preserve">
+    <value>[Question12]</value>
+  </data>
+  <data name="Question13" xml:space="preserve">
+    <value>[Question13]</value>
+  </data>
+  <data name="Question14" xml:space="preserve">
+    <value>[Question14]</value>
+  </data>
+  <data name="Question15" xml:space="preserve">
+    <value>[Question15]</value>
+  </data>
+  <data name="Question2" xml:space="preserve">
+    <value>[Question2]</value>
+  </data>
+  <data name="Question3" xml:space="preserve">
+    <value>[Question3]</value>
+  </data>
+  <data name="Question4" xml:space="preserve">
+    <value>[Question4]</value>
+  </data>
+  <data name="Question5" xml:space="preserve">
+    <value>[Question5]</value>
+  </data>
+  <data name="Question6" xml:space="preserve">
+    <value>[Question6]</value>
+  </data>
+  <data name="Question7" xml:space="preserve">
+    <value>[Question7]</value>
+  </data>
+  <data name="Question8" xml:space="preserve">
+    <value>[Question8]</value>
+  </data>
+  <data name="Question9" xml:space="preserve">
+    <value>[Question9]</value>
   </data>
 </root>

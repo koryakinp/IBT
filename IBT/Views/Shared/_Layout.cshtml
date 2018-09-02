@@ -1,6 +1,17 @@
 ﻿@using Microsoft.AspNetCore.Mvc.Localization
 @using IBT
+@using Microsoft.AspNetCore.Builder
+@using Microsoft.AspNetCore.Localization
+@using Microsoft.AspNetCore.Mvc.Localization
+@using Microsoft.Extensions.Options
+
 @inject IHtmlLocalizer<SharedResource> SharedLocalizer
+@inject IOptions<RequestLocalizationOptions> LocOptions
+
+@{
+    var requestCulture = Context.Features.Get<IRequestCultureFeature>();
+    var returnUrl = string.IsNullOrEmpty(Context.Request.Path) ? "~/" : $"~{Context.Request.Path.Value}";
+}
 
 <!DOCTYPE html>
 <html lang="ru">
@@ -22,7 +33,13 @@
     <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
     <link rel="stylesheet" href="/css/vendors/vendors.min.css">
+    <script src="/traditional.fine-uploader/fine-uploader.js"></script>
+    <link href="/traditional.fine-uploader/fine-uploader.css" rel="stylesheet" />
     <style>
+        .lng__item img {
+            width: 30px;
+        }
+
         .loaded * {
             -webkit-transition: none !important;
             -moz-transition: none !important;
@@ -40,17 +57,17 @@
             background: #ffffff url("/images/loader.svg") no-repeat center center;
         }
 
-        .loaded .sidebar {
-            display: none;
-        }
+            .loaded .sidebar {
+                display: none;
+            }
 
         a {
             text-decoration: none;
         }
 
-        a:hover {
-            text-decoration: none;
-        }
+            a:hover {
+                text-decoration: none;
+            }
     </style>
 </head>
 <body class="loaded">
@@ -78,35 +95,115 @@
                             <localize localizer="SharedLocalizer">Contacts</localize>
                         </a>
                         <div class="lng">
-                            <div class="lng__item lng__item--active">
-                                <svg class="icon icon-eng">
-                                    <use xlink:href="#icon-eng"></use>
-                                </svg>
-                            </div><a class="lng__item" href="#">
-                                <svg class="icon icon-deu">
-                                    <use xlink:href="#icon-deu"></use>
-                                </svg>
-                            </a><a class="lng__item" href="#">
-                                <svg class="icon icon-fra">
-                                    <use xlink:href="#icon-fra"></use>
-                                </svg>
-                            </a>
+
+                            @if (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName == "ru")
+                            {
+                                <div class="lng__item lng__item--active">
+                                    <img src="/images/ru.png" />
+                                </div>
+                            }
+                            else
+                            {
+                                <a class="lng__item" href="/Localization/SetLanguage?culture=ru&returnUrl=@returnUrl">
+                                    <img src="/images/ru.png" />
+                                </a>
+                            }
+
+                            @if (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName == "en")
+                            {
+                                <div class="lng__item lng__item--active">
+                                    <img src="/images/en.png" />
+                                </div>
+                            }
+                            else
+                            {
+                                <a class="lng__item" href="/Localization/SetLanguage?culture=en&returnUrl=@returnUrl">
+                                    <img src="/images/en.png" />
+                                </a>
+                            }
+
+
+                            @if (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName == "de")
+                            {
+                                <div class="lng__item lng__item--active">
+                                    <img src="/images/de.png" />
+                                </div>
+                            }
+                            else
+                            {
+                                <a class="lng__item" href="/Localization/SetLanguage?culture=de&returnUrl=@returnUrl">
+                                    <img src="/images/de.png" />
+                                </a>
+                            }
+
+                            @if (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName == "fr")
+                            {
+                                <div class="lng__item lng__item--active">
+                                    <img src="/images/fr.png" />
+                                </div>
+                            }
+                            else
+                            {
+                                <a class="lng__item" href="/Localization/SetLanguage?culture=fr&returnUrl=@returnUrl">
+                                    <img src="/images/fr.png" />
+                                </a>
+                            }
+
                         </div>
                     </nav>
                     <div class="lng">
-                        <div class="lng__item lng__item--active">
-                            <svg class="icon icon-eng">
-                                <use xlink:href="#icon-eng"></use>
-                            </svg>
-                        </div><a class="lng__item" href="#">
-                            <svg class="icon icon-deu">
-                                <use xlink:href="#icon-deu"></use>
-                            </svg>
-                        </a><a class="lng__item" href="#">
-                            <svg class="icon icon-fra">
-                                <use xlink:href="#icon-fra"></use>
-                            </svg>
-                        </a>
+                        @if (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName == "ru")
+                        {
+                            <div class="lng__item lng__item--active">
+                                <img src="/images/ru.png" />
+                            </div>
+                        }
+                        else
+                        {
+                            <a class="lng__item" href="/Localization/SetLanguage?culture=ru&returnUrl=@returnUrl">
+                                <img src="/images/ru.png" />
+                            </a>
+                        }
+
+                        @if (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName == "en")
+                        {
+                            <div class="lng__item lng__item--active">
+                                <img src="/images/en.png" />
+                            </div>
+                        }
+                        else
+                        {
+                            <a class="lng__item" href="/Localization/SetLanguage?culture=en&returnUrl=@returnUrl">
+                                <img src="/images/en.png" />
+                            </a>
+                        }
+
+
+                        @if (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName == "de")
+                        {
+                            <div class="lng__item lng__item--active">
+                                <img src="/images/de.png" />
+                            </div>
+                        }
+                        else
+                        {
+                            <a class="lng__item" href="/Localization/SetLanguage?culture=de&returnUrl=@returnUrl">
+                                <img src="/images/de.png" />
+                            </a>
+                        }
+
+                        @if (System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName == "fr")
+                        {
+                            <div class="lng__item lng__item--active">
+                                <img src="/images/fr.png" />
+                            </div>
+                        }
+                        else
+                        {
+                            <a class="lng__item" href="/Localization/SetLanguage?culture=fr&returnUrl=@returnUrl">
+                                <img src="/images/fr.png" />
+                            </a>
+                        }
                     </div>
                     <button class="menu-btn hamburger js-main-menu-btn"><span></span><span></span><span></span><span></span></button>
                 </div>
@@ -206,6 +303,7 @@
         }</script>
     <link rel="stylesheet" href="/css/common.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/script.js"></script>
     <script src="/js/vendors/vendors.min.js"></script>
     <script src="/js/common.min.js"></script>
     <script>$(window).on('load', function () { $('body').removeClass('loaded') });</script>

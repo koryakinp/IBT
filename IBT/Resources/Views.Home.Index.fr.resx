@@ -117,22 +117,79 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Email" xml:space="preserve">
-    <value>E-mail</value>
+  <data name="AbuEfficiency" xml:space="preserve">
+    <value>[AbuEfficiency]</value>
   </data>
-  <data name="LeaveMessage" xml:space="preserve">
-    <value>Contact us</value>
+  <data name="AbuEfficiencyFormol" xml:space="preserve">
+    <value>[AbuEfficiencyFormol]</value>
   </data>
-  <data name="Message" xml:space="preserve">
-    <value>Message</value>
+  <data name="AbuEfficiencyResin" xml:space="preserve">
+    <value>[AbuEfficiencyResin]</value>
   </data>
-  <data name="Name" xml:space="preserve">
-    <value>Company/Name</value>
+  <data name="AbuEfficiencyResinValue" xml:space="preserve">
+    <value>[AbuEfficiencyResinValue{0}]</value>
   </data>
-  <data name="Send" xml:space="preserve">
-    <value>Submit</value>
+  <data name="AbuEfficiencyTriethylamine" xml:space="preserve">
+    <value>[AbuEfficiencyTriethylamine]</value>
   </data>
-  <data name="UploadFile" xml:space="preserve">
-    <value>Add an Attachment</value>
+  <data name="AbuEfficiencyTriethylamineValue" xml:space="preserve">
+    <value>[AbuEfficiencyTriethylamineValue]</value>
+  </data>
+  <data name="AbuIntro" xml:space="preserve">
+    <value>[AbuIntro]</value>
+  </data>
+  <data name="AbuOperationDescription" xml:space="preserve">
+    <value>[AbuOperationDescription]</value>
+  </data>
+  <data name="AbuOperationDetailsOne" xml:space="preserve">
+    <value>[AbuOperationDetailsOne]</value>
+  </data>
+  <data name="AbuOperationDetailsThree" xml:space="preserve">
+    <value>[AbuOperationDetailsThree]</value>
+  </data>
+  <data name="AbuOperationDetailsTwo" xml:space="preserve">
+    <value>[AbuOperationDetailsTwo]</value>
+  </data>
+  <data name="AbuOprationTitle" xml:space="preserve">
+    <value>[AbuOprationTitle]</value>
+  </data>
+  <data name="AbuOprationValueA" xml:space="preserve">
+    <value>[AbuOprationValueA]</value>
+  </data>
+  <data name="AbuOprationValueB" xml:space="preserve">
+    <value>[AbuOprationValueB]</value>
+  </data>
+  <data name="AbuOprationValueC" xml:space="preserve">
+    <value>[AbuOprationValueC]</value>
+  </data>
+  <data name="AbuOprationValueFour" xml:space="preserve">
+    <value>[AbuOprationValueFour]</value>
+  </data>
+  <data name="AbuOprationValueOne" xml:space="preserve">
+    <value>[AbuOprationValueOne]</value>
+  </data>
+  <data name="AbuOprationValueThree" xml:space="preserve">
+    <value>[AbuOprationValueThree]</value>
+  </data>
+  <data name="AbuOprationValueTwo" xml:space="preserve">
+    <value>[AbuOprationValueTwo]</value>
+  </data>
+  <data name="AbuPurificationDescriptionOne" xml:space="preserve">
+    <value>[AbuPurificationDescriptionOne]</value>
+  </data>
+  <data name="AbuPurificationDescriptionTwo" xml:space="preserve">
+    <value>[AbuPurificationDescriptionTwo]</value>
+  </data>
+  <data name="AbuPurificationTitle" xml:space="preserve">
+    <value>[AbuPurificationTitle]</value>
+  </data>
+  <data name="AbyEfficiencyDescription" xml:space="preserve">
+    <value>[AbyEfficiencyDescription]</value>
+  </data>
+  <data name="CompanyIntro" xml:space="preserve">
+    <value>[CompanyIntro]</value>
+  </data>
+  <data name="Concentration" xml:space="preserve">
+    <value>[Concentration{0}{1}]</value>
   </data>
 </root>

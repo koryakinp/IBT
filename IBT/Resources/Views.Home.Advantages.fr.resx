@@ -117,22 +117,100 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Email" xml:space="preserve">
-    <value>E-mail</value>
+  <data name="9ReasonsToChooseAbu" xml:space="preserve">
+    <value>[9ReasonsToChooseAbu]</value>
   </data>
-  <data name="LeaveMessage" xml:space="preserve">
-    <value>Contact us</value>
+  <data name="AduAdvantages" xml:space="preserve">
+    <value>[AduAdvantages]</value>
   </data>
-  <data name="Message" xml:space="preserve">
-    <value>Message</value>
+  <data name="Advantage1" xml:space="preserve">
+    <value>[Advantage1]</value>
   </data>
-  <data name="Name" xml:space="preserve">
-    <value>Company/Name</value>
+  <data name="Advantage10Description" xml:space="preserve">
+    <value>[Advantage10Description]</value>
   </data>
-  <data name="Send" xml:space="preserve">
-    <value>Submit</value>
+  <data name="Advantage10Title" xml:space="preserve">
+    <value>[Advantage10Title]</value>
   </data>
-  <data name="UploadFile" xml:space="preserve">
-    <value>Add an Attachment</value>
+  <data name="Advantage1Description" xml:space="preserve">
+    <value>[Advantage1Description]</value>
+  </data>
+  <data name="Advantage1Title" xml:space="preserve">
+    <value>[Advantage1Title]</value>
+  </data>
+  <data name="Advantage2" xml:space="preserve">
+    <value>[Advantage2]</value>
+  </data>
+  <data name="Advantage2Description" xml:space="preserve">
+    <value>[Advantage2Description]</value>
+  </data>
+  <data name="Advantage2Title" xml:space="preserve">
+    <value>[Advantage2Title]</value>
+  </data>
+  <data name="Advantage3" xml:space="preserve">
+    <value>[Advantage3]</value>
+  </data>
+  <data name="Advantage3Description" xml:space="preserve">
+    <value>[Advantage3Description]</value>
+  </data>
+  <data name="Advantage3Title" xml:space="preserve">
+    <value>[Advantage3Title]</value>
+  </data>
+  <data name="Advantage4" xml:space="preserve">
+    <value>[Advantage4]</value>
+  </data>
+  <data name="Advantage4Description" xml:space="preserve">
+    <value>[Advantage4Description]</value>
+  </data>
+  <data name="Advantage4Title" xml:space="preserve">
+    <value>[Advantage4Title]</value>
+  </data>
+  <data name="Advantage5" xml:space="preserve">
+    <value>[Advantage5]</value>
+  </data>
+  <data name="Advantage5Description" xml:space="preserve">
+    <value>[Advantage5Description]</value>
+  </data>
+  <data name="Advantage5Title" xml:space="preserve">
+    <value>[Advantage5Title]</value>
+  </data>
+  <data name="Advantage6" xml:space="preserve">
+    <value>[Advantage6]</value>
+  </data>
+  <data name="Advantage6Description" xml:space="preserve">
+    <value>[Advantage6Description]</value>
+  </data>
+  <data name="Advantage6Title" xml:space="preserve">
+    <value>[Advantage6Title]</value>
+  </data>
+  <data name="Advantage7" xml:space="preserve">
+    <value>[Advantage7]</value>
+  </data>
+  <data name="Advantage7Description" xml:space="preserve">
+    <value>[Advantage7Description]</value>
+  </data>
+  <data name="Advantage7Title" xml:space="preserve">
+    <value>[Advantage7Title]</value>
+  </data>
+  <data name="Advantage8" xml:space="preserve">
+    <value>[Advantage8]</value>
+  </data>
+  <data name="Advantage8Description1" xml:space="preserve">
+    <value>[Advantage8Description1]</value>
+  </data>
+  <data name="Advantage8Description2" xml:space="preserve">
+    <value>[Advantage8Description2]</value>
+  </data>
+  <data name="Advantage8Title" xml:space="preserve">
+    <value>[Advantage8Title]</value>
+  </data>
+  <data name="Advantage9" xml:space="preserve">
+    <value>[Advantage9]</value>
+  </data>
+  <data name="Advantage9Description" xml:space="preserve">
+    <value>[Advantage9Description]</value>
+  </data>
+  <data name="Advantage9Title" xml:space="preserve">
+    <value>[Advantage9Title]</value>
   </data>
 </root>

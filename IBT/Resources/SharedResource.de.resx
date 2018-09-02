@@ -117,22 +117,40 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Email" xml:space="preserve">
-    <value>E-mail</value>
+  <data name="Abu" xml:space="preserve">
+    <value>[Abu{0}]</value>
   </data>
-  <data name="LeaveMessage" xml:space="preserve">
-    <value>Contact us</value>
+  <data name="abuSpecsFilename" xml:space="preserve">
+    <value>[abuSpecsFilename]</value>
   </data>
-  <data name="Message" xml:space="preserve">
-    <value>Message</value>
+  <data name="Advantages" xml:space="preserve">
+    <value>[Advantages]</value>
   </data>
-  <data name="Name" xml:space="preserve">
-    <value>Company/Name</value>
+  <data name="Contacts" xml:space="preserve">
+    <value>[Contacts]</value>
   </data>
-  <data name="Send" xml:space="preserve">
-    <value>Submit</value>
+  <data name="EnquiriesLink" xml:space="preserve">
+    <value>[EnquiriesLink]</value>
   </data>
-  <data name="UploadFile" xml:space="preserve">
-    <value>Add an Attachment</value>
+  <data name="Faq" xml:space="preserve">
+    <value>[Faq]</value>
+  </data>
+  <data name="FaqLink" xml:space="preserve">
+    <value>[FaqLink]</value>
+  </data>
+  <data name="ForDesigners" xml:space="preserve">
+    <value>[ForDesigners]</value>
+  </data>
+  <data name="MainPage" xml:space="preserve">
+    <value>[MainPage]</value>
+  </data>
+  <data name="NoviSad" xml:space="preserve">
+    <value>[NoviSad]</value>
+  </data>
+  <data name="Questioneer" xml:space="preserve">
+    <value>[Questioneer]</value>
+  </data>
+  <data name="Serbia" xml:space="preserve">
+    <value>[Serbia]</value>
   </data>
 </root>

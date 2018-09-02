@@ -244,7 +244,7 @@
     <value>5. Срок эксплуатации</value>
   </data>
   <data name="AbuLifespanValue" xml:space="preserve">
-    <value>Срок эксплуатации не менее 20 лет.</value>
+    <value>Срок эксплуатации не менее 15 лет.</value>
   </data>
   <data name="AbuMaintenanceTitle" xml:space="preserve">
     <value>3. Техническое обслуживание АБУ-{0}</value>
@@ -289,7 +289,7 @@
 производительностью {0} тыс. м&lt;sup&gt;3&lt;/sup&gt;/ч. (АБУ-{1})</value>
   </data>
   <data name="AbuTriethylamineEfficiencyTitle" xml:space="preserve">
-    <value>Эффективность очистки от триэтиламина и взвешенных веществ 96-99,9%
+    <value>Эффективность очистки от триэтиламина и взвешенных веществ 96-98%
 (на выходе концентрация триэтиламина не более 20 мг/м&lt;sup&gt;3&lt;/sup&gt;):</value>
   </data>
   <data name="AbuTriethylamineEfficiencyValue1" xml:space="preserve">

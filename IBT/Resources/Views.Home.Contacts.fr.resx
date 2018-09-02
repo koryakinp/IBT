@@ -118,21 +118,21 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Email" xml:space="preserve">
-    <value>E-mail</value>
+    <value>[Email]</value>
   </data>
   <data name="LeaveMessage" xml:space="preserve">
-    <value>Contact us</value>
+    <value>[LeaveMessage]</value>
   </data>
   <data name="Message" xml:space="preserve">
-    <value>Message</value>
+    <value>[Message]</value>
   </data>
   <data name="Name" xml:space="preserve">
-    <value>Company/Name</value>
+    <value>[Name]</value>
   </data>
   <data name="Send" xml:space="preserve">
-    <value>Submit</value>
+    <value>[Send]</value>
   </data>
   <data name="UploadFile" xml:space="preserve">
-    <value>Add an Attachment</value>
+    <value>[UploadFile]</value>
   </data>
 </root>
