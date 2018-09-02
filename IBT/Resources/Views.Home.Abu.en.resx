@@ -298,77 +298,72 @@ for purification of industrial ventilation air with a capacity of {0} thousand m
     <value>4.5. Ventilation</value>
   </data>
   <data name="AbuVentilationValue1" xml:space="preserve">
-    <value>Предусмотреть воздуховоды для подачи вентвоздуха от вентукрытий технологического оборудования в АБУ и далее от выхлопа вентиляторов
-в атмосферный воздух.</value>
+    <value>Air ducts need to supply air from the ventilation hoods of the equipment to the ABU, and then from the ventilators exhausts to the atmospheric air.</value>
   </data>
   <data name="AbuVentilationValue1.1" xml:space="preserve">
-    <value>Конструкция воздуховодов на линии разряжения – класса &amp;laquo;Н&amp;raquo; (нормальные).</value>
+    <value>The class of air duct structure on the rarefaction line is &amp;laquo;N&amp;raquo; (normal) class.</value>
   </data>
   <data name="AbuVentilationValue1.2" xml:space="preserve">
-    <value>Конструкция воздуховодов на линии давления (после вентиляторов) – класса &amp;laquo;Н&amp;raquo; (нормальные).</value>
+    <value>The class of air duct structure on the pressure line (after the ventilators) is &amp;laquo;N&amp;raquo; (normal) class.</value>
   </data>
   <data name="AbuVentilationValue1.3" xml:space="preserve">
-    <value>Гибкие вставке на входе в вентиляторы и на выходе из вентиляторов входят
-в комплект поставки.</value>
+    <value>Flexible inserts for the ventilator input and output are supplied with the ABU.</value>
   </data>
   <data name="AbuVentilationValue2" xml:space="preserve">
-    <value>В качестве побудителя тяги используется вентилятор {0} со следующими характеристиками:</value>
+    <value>The thrust actuator is a {0} ventilator with the following characteristics:</value>
   </data>
   <data name="AbuVentilationValue2.1" xml:space="preserve">
-    <value>двигатель {0} кВт, 380/660V, 50Hz, {1} об/мин;</value>
+    <value>engine {0} kW, 380/660V, 50Hz, {1} rpm</value>
   </data>
   <data name="AbuVentilationValue2.2" xml:space="preserve">
-    <value>материал изготовления вентилятора – углеродистая сталь с порошковым покрытием;</value>
+    <value>the ventilator is made of carbon steel with a powder coating</value>
   </data>
   <data name="AbuVentilationValue2.3" xml:space="preserve">
-    <value>частота вращения рабочего колеса вентилятора {0} об/мин.</value>
+    <value>ventilator impeller rotation speed - {0} rpm</value>
   </data>
   <data name="AbuVentilationValue2.4" xml:space="preserve">
-    <value>Уровень шума от вентилятора {0} составляет
-113 дБ.</value>
+    <value>The noise level from {0} fan is 113 dB</value>
   </data>
   <data name="AbuVentilationValue2.5" xml:space="preserve">
-    <value>Возможно использование побудителя тяги иного производителя и с другими характеристиками.</value>
+    <value>It is possible to use a thrust actuator from a different manufacturer and with different characteristics.</value>
   </data>
   <data name="AbuVentilationValue3" xml:space="preserve">
-    <value>Давление разрежения на входном штуцере АБУ не более – 1200 Па, давление нагнетания на штуцере выхлопа – не более +500 Па.</value>
+    <value>The rarefaction pressure at the ABU inlet fitting is below 1200 Pa, the delivery pressure on the exhaust connection shall not exceed +500 Pa.</value>
   </data>
   <data name="AbuVentilationValue4" xml:space="preserve">
-    <value>На воздуховодах, в зоне вентукрытий предусмотреть устройство шиберных затворов для регулировки натекания аспирационного воздуха. Ответные фланцы штуцеров входа и выхлопа входят в комплект поставки АБУ.</value>
+    <value>Shutter closing needs to be arranged on the ducts, in the area of enclosures, to regulate the aspiration air leakage. Fittings counter flanges for the inlet and exhaust areas are supplied with ABUs.</value>
   </data>
   <data name="AbuVentilationValue4.1" xml:space="preserve">
-    <value>В помещении установки АБУ необходимо предусмотреть общеобменную вентиляцию с кратностью воздухообмена 3-4.</value>
+    <value>General exchange ventilation with an air exchange rate of 3-4 need to be arranged in the ABU installation room.</value>
   </data>
   <data name="AbuWaterSupplyTitle" xml:space="preserve">
     <value>4.3. Water supply</value>
   </data>
   <data name="AbuWaterSupplyValue1" xml:space="preserve">
-    <value>Предусмотреть подвод технической воды из цеховой сети к штуцеру Ду 20 АБУ для разового заполнения емкостей (около 20 м&lt;sup&gt;3&lt;/sup&gt;) при запуске АБУ.</value>
+    <value>Provide for industrial water supply to ABU Ду 20 fitting for a one-time filling of the tanks (about 20 m&lt;sup&gt;3&lt;/sup&gt;) when the ABU is started.</value>
   </data>
   <data name="AbuWaterSupplyValue2" xml:space="preserve">
-    <value>Расход воды на подпитку АБУ – не более 2,0 м&lt;sup&gt;3&lt;/sup&gt;/сут.</value>
+    <value>Compensatory water consumption by the ABU - 2.0 m&lt;sup&gt;3&lt;/sup&gt;/day max.</value>
   </data>
   <data name="AbuWaterSupplyValue3" xml:space="preserve">
-    <value>Требования к технической воде на подпитку:</value>
+    <value>Requirements for industrial water to be used as additional feeding:</value>
   </data>
   <data name="AbuWaterSupplyValue3.1" xml:space="preserve">
-    <value>давление – 0,2-0,6 МПа;</value>
+    <value>pressure - 0.2-0.6 MPa;</value>
   </data>
   <data name="AbuWaterSupplyValue3.2" xml:space="preserve">
-    <value>содержание механических примесей – не более 0,1% по объему и размерами частиц не более 0,2 мм;</value>
+    <value>mechanical impurities content - 0.1% max by volume, particle size - 0.2 mm max;</value>
   </data>
   <data name="AbuWaterSupplyValue3.3" xml:space="preserve">
-    <value>температура – 5-30&amp;#176;С.</value>
+    <value>temperature - 5-30&amp;#176;С</value>
   </data>
   <data name="AbuWaterSupplyValue3.4" xml:space="preserve">
-    <value>Предусмотреть установку магистрального вентиля Ду 20мм на отводе подключения АБУ к цеховой сети.</value>
+    <value>The ABU needs to be connected to the local water supply system through the manifold valve Ду 20mm.</value>
   </data>
   <data name="AbuWaterSupplyValue4" xml:space="preserve">
-    <value>Точка подвода воды укомплектована соответствующим вентилем, кроме магистрального.</value>
+    <value>A suitable valve for a water feed point is supplied, except for the manifold valve.</value>
   </data>
   <data name="AbuWaterSupplyValue5" xml:space="preserve">
-    <value>При работающей системе абсорбции (насос и вентилятор в состоянии ВКЛЮЧЕНО) АБУ допускается отсутствие технической воды на подпитке
-не более 2 часов. При не работающей системе абсорбции (насос и вентилятор
-в состоянии ВЫКЛЮЧЕНО) подпитка не требуется.</value>
+    <value>With the ABU absorption system running (pump and ventilator are ON), service water intended for compensatory supply can be absent for 2 hours max. If the absorption system is not running (pump and ventilator are OFF), additional supply of water is not required.</value>
   </data>
 </root>
