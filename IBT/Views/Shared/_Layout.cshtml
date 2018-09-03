@@ -33,8 +33,6 @@
     <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
     <link rel="stylesheet" href="/css/vendors/vendors.min.css">
-    <script src="/traditional.fine-uploader/fine-uploader.js"></script>
-    <link href="/traditional.fine-uploader/fine-uploader.css" rel="stylesheet" />
     <style>
         .lng__item img {
             width: 30px;
@@ -57,17 +55,21 @@
             background: #ffffff url("/images/loader.svg") no-repeat center center;
         }
 
-            .loaded .sidebar {
-                display: none;
-            }
+        .loaded .sidebar {
+            display: none;
+        }
 
         a {
             text-decoration: none;
         }
 
-            a:hover {
-                text-decoration: none;
-            }
+        a:hover {
+            text-decoration: none;
+        }
+
+        .lng {
+            display:none !important;
+        }
     </style>
 </head>
 <body class="loaded">
@@ -302,6 +304,20 @@
             document.body.appendChild(browsehappy);
         }</script>
     <link rel="stylesheet" href="/css/common.min.css">
+    <style>
+        body {
+            color: #000;
+        }
+
+        a {
+            color:forestgreen;
+            font-weight:bold;
+        }
+
+        header a {
+            font-weight:lighter;
+        }
+    </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="/js/script.js"></script>
     <script src="/js/vendors/vendors.min.js"></script>

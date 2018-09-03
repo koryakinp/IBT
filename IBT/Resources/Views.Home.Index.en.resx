@@ -144,7 +144,7 @@
     <value>Diagram and description of the absorption-biological unit</value>
   </data>
   <data name="AbuOperationDetailsOne" xml:space="preserve">
-    <value>Harmful substances are captured in the scrubber with the help of a water absorbent, and they are neutralized (oxidized to CO2 and H2O) in the bioreactor.</value>
+    <value>Harmful substances are captured in the scrubber with the help of a water absorbent, and they are neutralized (oxidized to CO&lt;sup&gt;2&lt;/sup&gt; and H&lt;sup&gt;2&lt;/sup&gt;O) in the bioreactor.</value>
   </data>
   <data name="AbuOperationDetailsThree" xml:space="preserve">
     <value>Microorganisms (concentrated biomass) are supplied into the bioreactor once before ABU launch.</value>
